@@ -1,0 +1,10 @@
+#go inside your website code folder
+
+1.heroku login
+2.git init
+3.heroku git:remote -a "testnotokode"
+4.fill some file or folder you want to avoided in .gitignore
+5.git add .
+6.git commit -am "initial commit"
+7.git push heroku master
+8.heroku open
