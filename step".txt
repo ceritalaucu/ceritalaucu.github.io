@@ -1,10 +1,12 @@
 #go inside your website code folder
 
-1.heroku login
-2.git init
-3.heroku git:remote -a "testnotokode"
-4.fill some file or folder you want to avoided in .gitignore
-5.git add .
-6.git commit -am "initial commit"
-7.git push heroku master
-8.heroku open
+
+#for first commit
+1.git init
+2.git add .
+3.git commit -m "first commit"
+4.gi remote add origin git@github.com:ceritalaucu/ceritalaucu.github.io.git
+5.git push -u origin master
+
+#for changes
+https://docs.github.com/en/free-pro-team@latest/github/using-git/getting-changes-from-a-remote-repository
