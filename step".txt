@@ -9,4 +9,19 @@
 5.git push -u origin master
 
 #for changes
-https://docs.github.com/en/free-pro-team@latest/github/using-git/getting-changes-from-a-remote-repository
+https://gist.github.com/joallard/6518431
+
+1.git status
+2.git add .
+3.git status
+4.git commit -m "changes edited files"
+5.git status
+6.git log
+
+1.git pull origin master
+2.git reset
+3.git rebase
+4.git lol
+5.git rebase origin/master
+6.ls
+7.git push origin/master
