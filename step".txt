@@ -11,6 +11,7 @@
 #for changes
 https://gist.github.com/joallard/6518431
 
+#try this first
 1.git status
 2.git add .
 3.git status
@@ -19,6 +20,7 @@ https://gist.github.com/joallard/6518431
 6.git log
 7.git push origin master
 
+#if you have some errors (fetch first), then try this
 1.git pull origin master
 2.git reset
 3.git rebase
