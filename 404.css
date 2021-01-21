@@ -61,6 +61,11 @@ header ul li a{
 	padding:0 20px;
 }
 
+header ul li a:hover{
+	color:#318a2c;
+	transition:.5s;
+}
+
 footer {
 	font-family: "Press Start 2P",cursive;
 	font-size: 9px;
@@ -93,7 +98,7 @@ footer {
 		margin:50px 0;
 		line-height:30px;
 	}
-	a.active,a:hover{
+	a:hover{
 		background:none;
 		color:#318a2c;
 	}

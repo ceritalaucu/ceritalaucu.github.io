@@ -103,6 +103,12 @@ footer {
 	color:rgb(184, 184, 184);
 }
 
+.sticky{
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
 @media (max-width: 720px) {
 	label.logo{
 		font-weight:bold;
