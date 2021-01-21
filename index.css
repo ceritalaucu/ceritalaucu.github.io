@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Press+Start+2P&display=swap');
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style:none;
+}
+
+header {
+	font-family: "Press Start 2P", cursive;
+	background-color: #393e46;
+	width:100%;
+}
+label.logo{
+	font-weight:bold;
+	color:rgb(43, 93, 185);
+	font-size:20px;
+	line-height:50px;
+	padding:0 15px;
+}
+
+#check{
+	display:none;
+}
+
+.checkbtn{
+	display:none;
+	font-size:20px;
+	color:rgb(184, 184, 184);
+	float:right;
+	line-height:50px;
+	padding-right:30px;
+}
+
+header ul{
+	float:right;
+	padding:0 30px;
+}
+
+header ul li{
+	display:inline-block;
+	line-height:50px;
+}
+
+header ul li a{
+	color:rgb(184, 184, 184);
+	font-size:12px;
+	padding:0 20px;
+}
+
+header ul li a.active,a:hover{
+	color:#318a2c;
+	transition:.5s;
+}
+
+article{
+	font-family:"Caveat", cursive;
+	background-color:#6478a5;
+	float:left;
+	padding:20px;
+}
+
+article h2 {
+	margin: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+
+article span {
+	text-align: center;
+	display: block;
+}
+
+article p{
+	font-size:25px;
+}
+
+article .source{
+	text-align: center;
+	border-style: dashed;
+	padding: 0;
+	margin-bottom: 30px;
+	background-color: #2d4f9e;
+	color:rgb(0, 0, 0);
+}
+
+article .source .link{
+	color:rgb(0, 0, 0);
+	font-weight:bold;
+}
+
+footer {
+	font-family: "Press Start 2P",cursive;
+	font-size: 9px;
+	background-color: #393e46;
+	line-height:50px;
+	text-align: center;
+	color:rgb(184, 184, 184);
+}
+
+@media (max-width: 720px) {
+	label.logo{
+		font-weight:bold;
+		color:rgb(43, 93, 185);
+		font-size:16px;
+		line-height:50px;
+		padding-left:15px;
+	}
+	.checkbtn{
+		display:block;
+	}
+
+	ul{
+		position:fixed;
+		width:100%;
+		height:100vh;
+		background:#2c3e50;
+		top:50px;
+		left:-100%;
+		text-align:center;
+		transition:all .5s;
+	}
+
+	header ul li{
+		display:block;
+		margin:50px 0;
+		line-height:30px;
+	}
+
+	a.active,a:hover{
+		background:none;
+		color:#318a2c;
+	}
+
+	#check:checked ~ ul{
+		left:0;
+	}
+}
