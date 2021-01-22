@@ -11,6 +11,11 @@
 	list-style:none;
 }
 
+.above_header{
+	padding:1px;
+	background-color:#393e46;
+}
+
 header {
 	font-family: "Press Start 2P", cursive;
 	background-color: #393e46;
