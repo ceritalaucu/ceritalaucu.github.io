@@ -9,10 +9,4 @@ function myFunction(){
     }else{
         header.classList.remove("sticky");
     }
-
-    // if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    //     header.style.top = "0";
-    // } else {
-    //     header.style.top = "-50px";
-    // }
 }
