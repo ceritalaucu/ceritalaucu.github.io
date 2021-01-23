@@ -18,6 +18,12 @@ body{
     justify-content:space-between;
 }
 
+#banner-header{
+	/* background-color:#6478a5; */
+	background-color: white;
+	padding:20px;
+}
+
 #header {
 	font-family: "Press Start 2P", cursive;
 	background-color: #393e46;

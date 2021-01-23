@@ -11,14 +11,18 @@
 	list-style:none;
 }
 
+#banner-header{
+	background-color:#6478a5;
+	padding:20px;
+}
+
 #header {
 	font-family: "Press Start 2P", cursive;
 	background-color: #393e46;
 	width:100%;
 	position:fixed;
-	top:-50px;
+	z-index:10;
 	display:block;
-	transition:top 0.3s;
 }
 label.logo{
 	font-weight:bold;
