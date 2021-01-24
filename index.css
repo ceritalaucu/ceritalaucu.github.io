@@ -17,7 +17,7 @@
 	padding:20px;
 }
 
-#header {
+header {
 	font-family: "Press Start 2P", cursive;
 	background-color: #393e46;
 	width:100%;
@@ -35,9 +35,7 @@ label.logo{
 
 .checkbtn{
 	display:none;
-	background:#1b1b1b;
 	text-align:center;
-	border-radius:3px;
 	line-height:50px;
 	width:45px;
 	float:right;
@@ -70,6 +68,27 @@ header ul li a{
 header ul li a.active,a:hover{
 	color:#318a2c;
 	transition:.5s;
+}
+
+header ul ul{
+	display:none;
+}
+
+header ul .kisah-show.show{
+	display:block;
+}
+
+header ul ul li a{
+	font-size:10px;
+}
+
+header ul li a span{
+	font-size:17px;
+	transition:transform 0.4s;
+}
+
+header ul li a span.rotate{
+	transform:rotate(-180deg);
 }
 
 article{
@@ -141,38 +160,22 @@ footer {
 	.header-content.click{
 		left:0px;
 	}
-	#header ul{
+	header ul{
 		padding:0;
 	}
-	#header ul li{
+	header ul li{
 		display:block;
 		line-height:30px;
 	}
-	#header ul li:last-child{
+	header ul li:last-child{
 		line-height:30px;
 	}
 	a.active,a:hover{
 		background:none;
 		color:#318a2c;
 	}
-	#header ul ul{
-		display:none;
-	}
-	#header ul .kisah-show.show{
-		display:block;
-	}
-	#header ul ul li{
+	header ul ul li{
 		line-height:30px;
 		border-bottom:none;
-	}
-	#header ul ul li a{
-		font-size:10px;
-	}
-	#header ul li a span{
-		font-size:17px;
-		transition:transform 0.4s;
-	}
-	#header ul li a span.rotate{
-		transform:rotate(-180deg);
 	}
 }
