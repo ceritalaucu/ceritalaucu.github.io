@@ -49,45 +49,45 @@ label.logo{
 	content:"\f00d";
 }
 
-header ul{
+header .header-content,.kisah-show{
 	float:right;
 	padding:0 30px;
 }
 
-header ul li{
+header .header-words{
 	display:inline-block;
 	line-height:50px;
 }
 
-header ul li a{
+header a{
 	color:rgb(184, 184, 184);
 	font-size:12px;
 	padding:0 20px;
 }
 
-header ul li a.active,a:hover{
+header a.active,a:hover{
 	color:#318a2c;
 	transition:.5s;
 }
 
-header ul ul{
+header .header-content .kisah-show{
 	display:none;
 }
 
-header ul .kisah-show.show{
+header .header-content .kisah-show.show{
 	display:block;
 }
 
-header ul ul li a{
+header .header-content .kisah-show li a{
 	font-size:10px;
 }
 
-header ul li a span{
+header span{
 	font-size:17px;
 	transition:transform 0.4s;
 }
 
-header ul li a span.rotate{
+header span.rotate{
 	transform:rotate(-180deg);
 }
 
@@ -160,21 +160,15 @@ footer {
 	.header-content.click{
 		left:0px;
 	}
-	header ul{
-		padding:0;
-	}
-	header ul li{
+	header .header-words{
 		display:block;
 		line-height:30px;
 	}
-	header ul li:last-child{
-		line-height:30px;
-	}
-	a.active,a:hover{
+	header a.active,a:hover{
 		background:none;
 		color:#318a2c;
 	}
-	header ul ul li{
+	header .header-content .kisah-show li{
 		line-height:30px;
 		border-bottom:none;
 	}
