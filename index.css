@@ -48,9 +48,8 @@ label.logo{
 	content:"\f00d";
 }
 
-header .header-content{
-	float:right;
-	padding:0 10px;
+.header-content{
+	padding:0 20px;
 }
 
 header .header-words{
@@ -76,7 +75,16 @@ header .header-content .kisah-show{
 	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.7);
 }
 
-header .header-content .kisah-show.show{
+header .header-content .idnstory-show.show{
+	display:block;
+}
+header .header-content .russtory-show.show{
+	display:block;
+}
+header .header-content .chnstory-show.show{
+	display:block;
+}
+header .header-content .usastory-show.show{
 	display:block;
 }
 
@@ -160,6 +168,7 @@ footer {
 		background:#2c3e50;
 		top:50px;
 		left:-100%;
+		overflow:auto;
 		transition:left 0.4s ease;
 	}
 	header .header-content .kisah-show{
@@ -178,7 +187,6 @@ footer {
 	}
 	header .header-words{
 		display:block;
-		line-height:30px;
 	}
 	header a.active,a:hover{
 		background:none;
