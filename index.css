@@ -49,7 +49,7 @@ label.logo{
 	content:"\f00d";
 }
 
-header .header-content,.kisah-show{
+header .header-content{
 	float:right;
 	padding:0 30px;
 }
@@ -78,7 +78,7 @@ header .header-content .kisah-show.show{
 	display:block;
 }
 
-header .header-content .kisah-show li a{
+header .header-content .kisah-show a{
 	font-size:10px;
 }
 
@@ -150,15 +150,15 @@ footer {
 
 	.header-content{
 		position:fixed;
-		width:300px;
+		width:100%;
 		height:100%;
 		background:#2c3e50;
 		top:50px;
-		left:-300px;
+		left:-100%;
 		transition:left 0.4s ease;
 	}
 	.header-content.click{
-		left:0px;
+		left:0;
 	}
 	header .header-words{
 		display:block;
@@ -167,9 +167,5 @@ footer {
 	header a.active,a:hover{
 		background:none;
 		color:#318a2c;
-	}
-	header .header-content .kisah-show li{
-		line-height:30px;
-		border-bottom:none;
 	}
 }
