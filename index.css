@@ -59,11 +59,6 @@ header a{
 	padding:0 20px;
 }
 
-header a.active,a:hover{
-	color:#318a2c;
-	transition:.5s;
-}
-
 header .header-content .kisah-show{
 	display:none;
 	position:absolute;
