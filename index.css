@@ -12,89 +12,97 @@
 	list-style:none;
 }
 
-#banner-header{
-	background-color:#6478a5;
-	padding:20px;
-}
-
-header {
-	font-family: "Press Start 2P", cursive;
-	background-color: #393e46;
+.header-nav{
+	font-family:"Press Start 2P",cursive;
+	background-color:#393e46;
 	width:100%;
 	position:fixed;
 	display:block;
 }
-label.logo{
+
+.header-logo{
 	font-weight:bold;
-	color:rgb(43, 93, 185);
+	color:rgb(43,93,185);
 	font-size:20px;
 	line-height:50px;
 	padding:0 20px;
 }
 
-.checkbtn{
+.menubtn{
 	display:none;
+	background:none;
 	text-align:center;
 	line-height:50px;
 	width:45px;
 	float:right;
-	transition:0.4s ease;
+	transition:.4s ease;
 }
-.checkbtn span{
+
+.menubtn span{
 	color:white;
 	font-size:20px;
 }
-.checkbtn.click span:before{
+
+.menubtn.click span:before{
 	content:"\f00d";
+}
+
+.header-nav span.rotate{
+	transform:rotate(-180deg);
 }
 
 .header-content{
 	float:right;
 }
 
-header .header-words{
+.header-nav .header-item{
 	display:inline-block;
 	line-height:50px;
 }
 
-header a{
-	color:rgb(184, 184, 184);
+.header-nav a{
+	color:rgb(184,184,184);
 	font-size:12px;
 	padding:0 20px;
 }
 
-header .header-content .kisah-show{
+.header-nav .header-content .learn-item{
 	display:none;
 	position:absolute;
-	background-color: rgb(24, 53, 97);
+	background-color:rgb(24,53,97);
 	box-shadow:0px 8px 16px 0px rgba(0,0,0,1);
 }
 
-header .header-content .idnstory-show.show{
+.header-nav .header-content .learn-item-show.show{
 	display:block;
 }
 
-header .header-content .kisah-show a{
+.header-nav .header-content .learn-item a{
 	font-size:10px;
-	color:rgb(184, 184, 184);
-	padding: 12px 16px;
+	padding:12px 16px;
 	display:block;
 	padding-top:0;
 	padding-bottom:0;
 }
-header .header-content .kisah-show div{
-	border-bottom:1px solid black;
-}
-header .header-content .kisah-show div:last-child{
-	border-bottom:unset;
+
+.banner-header{
+	padding-top:200px;
+	background-color:#2965a1;
 }
 
-header span{
-	font-size:17px;
+.whoami{
+	padding-top:300px;
+	background-color:#c57122;
 }
 
-header span.rotate{
-	transform:rotate(-180deg);
+.whatfeatures{
+	padding-top:500px;
+	background-color:#206441;
+}
+
+.ourcontent{
+	padding-top:700px;
+	background-color:#2965a1;
 }
 
 footer {
@@ -114,46 +122,34 @@ footer {
 		line-height:50px;
 		padding-left:20px;
 	}
-	.checkbtn{
+
+	.menubtn{
 		display:block;
 	}
+
+
 	.header-content{
 		position:fixed;
-		width:100%;
+		width:50%;
 		height:100vh;
 		background:#21466b;
 		top:50px;
-		left:-100%;
+		left:-50%;
 		overflow:auto;
 		transition:left 0.4s ease;
 		padding:0 15px 0 15px;
 	}
-	header a{
-		font-size:10px;
-	}
-	header .header-content .kisah-show{
-		position:relative;
-		background-color:unset;
-		background-color: rgb(24, 53, 97);
-		box-shadow:4px 4px 4px 4px rgb(0, 0, 0);
-	}
-	header .header-content .kisah-show a{
-		font-size:9px;
-		color:rgb(184, 184, 184);
-		display:block;
-		padding-top:0;
-		padding-bottom:0;
-	}
+
 	.header-content.click{
 		left:0;
 		padding-bottom:30px;
 	}
-	header .header-words{
+
+	.header-nav .header-item{
 		display:block;
-		border-bottom:1px solid rgb(0, 0, 0);
 	}
-	header .header-words:last-child{
-		padding-bottom:30px;
-		border-bottom:unset;
+
+	.header-nav .header-content .learn-item{
+		position:relative;
 	}
 }

@@ -1,8 +1,8 @@
-$(".checkbtn").click(function(){
+$(".menubtn").click(function(){
     $(this).toggleClass("click");
     $(".header-content").toggleClass("click");
 });
-$(".idnstory-btn").click(function(){
-    $("header .idnstory-show").toggleClass("show");
-    $("header .first").toggleClass("rotate");
+$(".learnbtn").click(function(){
+    $(".header-nav .learn-item-show").toggleClass("show");
+    $(".header-nav .first").toggleClass("rotate");
 });
