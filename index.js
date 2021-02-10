@@ -13,9 +13,10 @@ function checkTime(i){
 }
 function startTime(){
     var today=new Date();
-    var hours=today.getHours();
-    var minutes=today.getMinutes();
-    var seconds=today.getSeconds();
+    var hours=today.getUTCHours()+7;
+    var minutes=today.getUTCMinutes();
+    var seconds=today.getUTCSeconds();
+    if((hours-24)>=0)hours=hours-24;
     minutes=checkTime(minutes);
     seconds=checkTime(seconds);
     document.getElementById("nowTime").innerHTML=hours+" : "+minutes+" : "+seconds;
