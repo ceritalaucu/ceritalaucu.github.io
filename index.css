@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/*HEADER CSS */
 * {
 	margin:0;
 	padding:0;
@@ -84,12 +86,17 @@
 	padding:0 10px;
 	display:block;
 }
+/* HEADER CSS */
 
-/* ISI KONTEN */
+
+
+/* BODY CSS */
 .banner-header{
 	height:100vh;
-	background-color: #000;
-	background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+	background-image:url("Images/banner-header.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
@@ -97,8 +104,8 @@
 }
 
 .bh-text{
-	font-family:"Press Start 2P",cursive;
-	color:#d17c44;
+	font-family:"Lato",cursive;
+	color:#1a2e64;
 }
 .bh-emoji{
 	color:white;
@@ -136,10 +143,13 @@
 
 .bonus{
 	height:100vh;
-	background-color:#3282b8;
+	background-color:#303841;
 }
-/* ISI KONTEN */
+/* BODY CSS */
 
+
+
+/* FOOTER CSS */
 footer {
 	font-family: "Press Start 2P",cursive;
 	font-size: 12px;
@@ -148,13 +158,12 @@ footer {
 	text-align: center;
 	color:rgb(184, 184, 184);
 }
-
+/* FOOTER CSS */
 @media (max-width: 720px) {
+	/* HEADER CSS */
 	.menubtn{
 		display:block;
 	}
-
-
 	.header-content{
 		position:fixed;
 		width:70%;
@@ -179,4 +188,13 @@ footer {
 	.header-nav .header-content .learn-item{
 		position:relative;
 	}
+	/* HEADER CSS */
+
+
+
+	/* BODY CSS */
+	.banner-header{
+		background-position:right;
+	}
+	/* BODY CSS */
 }
