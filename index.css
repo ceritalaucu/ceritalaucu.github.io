@@ -111,13 +111,14 @@
 	color:white;
 	font-size:2em;
 }
-.bh-btn{
+#bh-days{
 	margin-top:2rem;
 	padding:.5rem .5rem;
 	border-radius:2px;
-	background:#1f6444;
+	background:#f88f01;
 	font-family:"Lato",cursive;
 	font-size:1.25rem;
+	box-shadow:5px 5px;
 }
 #nowTime{
 	margin-top:2rem;

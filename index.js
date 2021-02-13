@@ -7,6 +7,11 @@ $(".learnbtn").click(function(){
     $(".header-nav .first").toggleClass("rotate");
 });
 
+function roadToDays(){
+    var days=17;
+    if(startTime.hours===0)days++;
+    document.getElementById("bh-days").innerHTML="Day "+days;
+}
 function checkTime(i){
     if(i<10){i="0"+i}; // add zero in front of numbers < 10
     return i;
@@ -17,6 +22,7 @@ function startTime(){
     var minutes=today.getUTCMinutes();
     var seconds=today.getUTCSeconds();
     if((hours-24)>=0)hours=hours-24;
+    hours=checkTime(hours);
     minutes=checkTime(minutes);
     seconds=checkTime(seconds);
     document.getElementById("nowTime").innerHTML=hours+" : "+minutes+" : "+seconds;
