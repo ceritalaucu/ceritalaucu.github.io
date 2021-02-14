@@ -7,24 +7,32 @@ $(".learnbtn").click(function(){
     $(".header-nav .first").toggleClass("rotate");
 });
 
-function roadToDays(){
-    var days=17;
-    if(startTime.hours===0)days++;
-    document.getElementById("bh-days").innerHTML="Day "+days;
-}
+var days;
+var today;
+var hours;
+var minutes;
+var seconds;
+var t;
 function checkTime(i){
     if(i<10){i="0"+i}; // add zero in front of numbers < 10
     return i;
 }
+function roadToDays(){
+    startTime
+    if(hours==="00")days++;
+    document.getElementById("bh-days").innerHTML="Day "+days;
+    t=setTimeout(roadToDays,500);
+}
 function startTime(){
-    var today=new Date();
-    var hours=today.getUTCHours()+7;
-    var minutes=today.getUTCMinutes();
-    var seconds=today.getUTCSeconds();
+    today=new Date();
+    hours=today.getUTCHours()+7;
+    minutes=today.getUTCMinutes();
+    seconds=today.getUTCSeconds();
     if((hours-24)>=0)hours=hours-24;
+    days=19;
     hours=checkTime(hours);
     minutes=checkTime(minutes);
     seconds=checkTime(seconds);
     document.getElementById("nowTime").innerHTML=hours+" : "+minutes+" : "+seconds;
-    var t=setTimeout(startTime,500);
+    t=setTimeout(startTime,500);
 }
