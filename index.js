@@ -7,7 +7,7 @@ $(".learnbtn").click(function(){
     $(".header-nav .first").toggleClass("rotate");
 });
 
-var days;
+var days=19;
 var today;
 var hours;
 var minutes;
@@ -19,9 +19,9 @@ function checkTime(i){
 }
 function roadToDays(){
     startTime
-    if(hours==="00")days++;
+    if(seconds==00)days=days+1;
     document.getElementById("bh-days").innerHTML="Day "+days;
-    t=setTimeout(roadToDays,500);
+    t=setTimeout(roadToDays,1000);
 }
 function startTime(){
     today=new Date();
@@ -29,7 +29,6 @@ function startTime(){
     minutes=today.getUTCMinutes();
     seconds=today.getUTCSeconds();
     if((hours-24)>=0)hours=hours-24;
-    days=19;
     hours=checkTime(hours);
     minutes=checkTime(minutes);
     seconds=checkTime(seconds);
