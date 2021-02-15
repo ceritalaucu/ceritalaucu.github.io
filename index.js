@@ -7,7 +7,7 @@ $(".learnbtn").click(function(){
     $(".header-nav .first").toggleClass("rotate");
 });
 
-var days=20;
+// var days=20;
 var today;
 var hours;
 var minutes;
@@ -17,12 +17,12 @@ function checkTime(i){
     if(i<10){i="0"+i}; // add zero in front of numbers < 10
     return i;
 }
-function roadToDays(){
-    startTime
-    if(hours==00)days=days+1;
-    document.getElementById("bh-days").innerHTML="Day "+days;
-    t=setTimeout(roadToDays,1000);
-}
+// function roadToDays(){
+//     startTime
+//     if(hours==00)days=days+1;
+//     document.getElementById("bh-days").innerHTML="Day "+days;
+//     t=setTimeout(roadToDays,1000);
+// }
 function startTime(){
     today=new Date();
     hours=today.getUTCHours()+7;
