@@ -7,7 +7,7 @@ $(".learnbtn").click(function(){
     $(".header-nav .first").toggleClass("rotate");
 });
 
-var days=19;
+var days=20;
 var today;
 var hours;
 var minutes;
@@ -19,7 +19,7 @@ function checkTime(i){
 }
 function roadToDays(){
     startTime
-    if(seconds==00)days=days+1;
+    if(hours==00)days=days+1;
     document.getElementById("bh-days").innerHTML="Day "+days;
     t=setTimeout(roadToDays,1000);
 }
