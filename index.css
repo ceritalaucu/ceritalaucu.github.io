@@ -132,12 +132,19 @@
 
 .whoami{
 	height:100vh;
-	background-color:#45567d;
+	background-color:#303841;
 }
 
 .whatfeatures{
 	height:100vh;
-	background-color:#303841;
+	background-image:url("Images/whatfeatures.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;  
 }
 
 .ourcontent{
@@ -147,7 +154,14 @@
 
 .bonus{
 	height:100vh;
-	background-color:#303841;
+	background-image:url("Images/bonus.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
 }
 /* BODY CSS */
 
