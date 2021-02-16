@@ -91,6 +91,8 @@
 
 
 /* BODY CSS */
+
+/* BANNER HEADER */
 .banner-header{
 	height:100vh;
 	background-image:url("Images/banner-header.jpg");
@@ -126,6 +128,7 @@
 	font-family:"Londrina Sketch",cursive;
 	font-size:3rem;
 }
+/* BANNER HEADER */
 
 .whoami{
 	height:100vh;
