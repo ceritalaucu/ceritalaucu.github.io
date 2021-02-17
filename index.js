@@ -8,11 +8,16 @@ $(".learnbtn").click(function(){
 });
 
 // var days=20;
+var preloader =document.getElementById("loading-page");
 var today;
 var hours;
 var minutes;
 var seconds;
 var t;
+
+function preloading(){
+    preloader.style.display = "none";
+}
 function checkTime(i){
     if(i<10){i="0"+i}; // add zero in front of numbers < 10
     return i;
