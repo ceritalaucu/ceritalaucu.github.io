@@ -20,7 +20,9 @@
 	background:#fff;
 	position:fixed;
 	z-index:999;
-	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 
 .header-nav{
