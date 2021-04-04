@@ -108,7 +108,7 @@
 /* BANNER HEADER */
 .banner-header{
 	height:100vh;
-	background-color:#393e46;
+	background-color:#23374d;
 	background-position:right;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -150,13 +150,13 @@
 /* WHOAMI */
 .whoami{
 	height:100vh;
-	background-color:#393e46;
+	background-color:#0f4c75;
 }
 /* WHOAMI */
 
 .whatfeatures{
 	height:100vh;
-	background-color:#393e46;
+	background-color:#23374d;
 	background-position:right;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -169,12 +169,12 @@
 
 .ourcontent{
 	height:100vh;
-	background-color:#393e46;
+	background-color:#0f4c75;
 }
 
 .bonus{
 	height:100vh;
-	background-color:#393e46;
+	background-color:#23374d;
 	background-position:right;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
