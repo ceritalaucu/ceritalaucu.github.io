@@ -122,6 +122,7 @@
 .bh-text{
 	font-family:"Caveat",cursive;
 	color:#106dac;
+	font-size:40px;
 }
 .bh-emoji{
 	color:rgb(184,184,184);
@@ -149,7 +150,7 @@
 /* WHOAMI */
 .whoami{
 	height:100vh;
-	background-color:#0f4c75;
+	background-color:#393e46;
 }
 /* WHOAMI */
 
@@ -168,7 +169,7 @@
 
 .ourcontent{
 	height:100vh;
-	background-color:#0f4c75;
+	background-color:#393e46;
 }
 
 .bonus{

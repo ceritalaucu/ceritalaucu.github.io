@@ -113,22 +113,17 @@
 /* BEST GREY BACKGROUND COLOR : #303841 */
 
 .stories-section{
-    font-family:ubuntu;
+    font-family:"Caveat",cursive;
     color:rgb(184,184,184);
     text-align:center;
     padding:10rem 2rem;
     background:#0f4c75;
 }
 .stories-section-header{
-    max-width:640px;
-    font-size:40px;
-    margin:0 auto 6rem auto;
+	max-width:640px;
+	font-size:40px;
+    margin:0 auto 3rem auto;
     border-bottom:0.2rem solid rgb(184,184,184);
-}
-@media (max-width:28.75em){
-    .stories-section-header{
-        font-size:4rem;
-    }
 }
 
 .ourstories{
