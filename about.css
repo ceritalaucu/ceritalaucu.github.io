@@ -5,6 +5,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
 /*HEADER CSS */
 * {
 	margin:0;
@@ -105,84 +112,70 @@
 
 /* BEST GREY BACKGROUND COLOR : #303841 */
 
-/* BANNER HEADER */
-.banner-header{
-	height:100vh;
-	background-color:#393e46;
-	background-position:right;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;  
+.stories-section{
+    font-family:ubuntu;
+    color:rgb(184,184,184);
+    text-align:center;
+    padding:10rem 2rem;
+    background:#0f4c75;
+}
+.stories-section-header{
+    max-width:640px;
+    font-size:40px;
+    margin:0 auto 6rem auto;
+    border-bottom:0.2rem solid rgb(184,184,184);
+}
+@media (max-width:28.75em){
+    .stories-section-header{
+        font-size:4rem;
+    }
 }
 
-.bh-text{
-	font-family:"Caveat",cursive;
-	color:#106dac;
-}
-.bh-emoji{
-	color:rgb(184,184,184);
-	font-size:2em;
-}
-#bh-reminder{
-	margin-top:2rem;
-	padding:.5rem .5rem;
-	border-radius:4px;
-	background:#202225;
-	font-family:"Lato",cursive;
-	color:rgb(184,184,184);
-	font-size:1.25rem;
-	box-shadow:5px 5px;
-	box-shadow:0px 5px 8px 0px black;
-}
-#nowTime{
-	margin-top:2rem;
-	color:rgb(184,184,184);
-	font-family:"Londrina Sketch",cursive;
-	font-size:3rem;
-}
-/* BANNER HEADER */
-
-/* WHOAMI */
-.whoami{
-	height:100vh;
-	background-color:#0f4c75;
-}
-/* WHOAMI */
-
-.whatfeatures{
-	height:100vh;
-	background-color:#393e46;
-	background-position:right;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;  
+.ourstories{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap:4rem;
+    width:100%;
+    max-width:1280px;
+    margin:0 auto;
+    margin-bottom:4rem;
 }
 
-.ourcontent{
-	height:100vh;
-	background-color:#0f4c75;
+@media (max-width: 30.625em) {
+    .stories-section{
+        padding:4rem 1rem;
+    }
+    .ourstories{
+      grid-template-columns: 1fr;
+    }
+}
+  
+.story-grid{
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+  
+.code {
+    color: var(--main-gray);
+    transition: color 0.3s ease-out;
+}
+  
+.story-grid:hover .code {
+    color: #ff7f50;
+  }
+  
+.story-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+  
+.story-text{
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
 }
 
-.bonus{
-	height:100vh;
-	background-color:#393e46;
-	background-position:right;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-}
 /* BODY CSS */
 
 
