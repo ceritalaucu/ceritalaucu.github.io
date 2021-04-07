@@ -35,7 +35,7 @@
 }
 
 .header-logo{
-	color:rgb(184,184,184);
+	color:rgb(184, 184, 184);
 	font-size:20px;
 	line-height:50px;
 	margin-left:10px;
@@ -122,11 +122,11 @@
 
 .bh-text{
 	font-family:"Caveat",cursive;
-	color:rgb(184,184,184);
+	color:white;
 	font-size:40px;
 }
 .bh-emoji{
-	color:rgb(184,184,184);
+	color:white;
 	font-size:2em;
 }
 #bh-reminder{

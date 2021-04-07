@@ -115,19 +115,20 @@
 
 .stories-section{
     font-family:"Caveat",cursive;
-    color:rgb(225, 224, 224);
     text-align:center;
     padding:10rem 2rem;
     background:#0f4c75;
 }
 .stories-section-header{
+	color:white;
 	max-width:640px;
 	font-size:40px;
     margin:0 auto 3rem auto;
-    border-bottom:2px solid rgb(225, 224, 224);
+    border-bottom:2px solid white;
 }
 
 .ourstories{
+	color:rgb(225, 224, 224);
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
     grid-gap:4rem;
