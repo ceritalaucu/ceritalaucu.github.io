@@ -26,7 +26,8 @@
 }
 
 .header-nav{
-	font-family:"Press Start 2P",cursive;
+	font-family:ubuntu,cursive;
+
 	background-color:#202225;
 	width:100%;
 	position:fixed;
@@ -45,12 +46,12 @@
 
 .header-content{
 	float:right;
-	margin-right:20px;
+	margin-right:30px;
 }
 
 .header-nav a{
 	color:rgb(184,184,184);
-	font-size:12px;
+	font-size:15px;
 	padding-right:40px;
 }
 
@@ -93,7 +94,7 @@
 }
 
 .header-nav .header-content .learn-item a{
-	font-size:10px;
+	font-size:15px;
 	padding:0 10px;
 	display:block;
 }
@@ -108,7 +109,7 @@
 /* BANNER HEADER */
 .banner-header{
 	height:100vh;
-	background-color:#23374d;
+	background-color:#0f4c75;
 	background-position:right;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -121,7 +122,7 @@
 
 .bh-text{
 	font-family:"Caveat",cursive;
-	color:#106dac;
+	color:rgb(184,184,184);
 	font-size:40px;
 }
 .bh-emoji{
@@ -150,13 +151,13 @@
 /* WHOAMI */
 .whoami{
 	height:100vh;
-	background-color:#0f4c75;
+	background-color:#e4e4e4;
 }
 /* WHOAMI */
 
 .whatfeatures{
 	height:100vh;
-	background-color:#23374d;
+	background-color:#0f4c75;
 	background-position:right;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -172,26 +173,14 @@
 	background-color:#0f4c75;
 }
 
-.bonus{
-	height:100vh;
-	background-color:#23374d;
-	background-position:right;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-}
 /* BODY CSS */
 
 
 
 /* FOOTER CSS */
 footer {
-	font-family: "Press Start 2P",cursive;
-	font-size: 12px;
+	font-family:ubuntu,cursive;
+	font-size: 13px;
 	background-color: #202225;
 	line-height:50px;
 	text-align: center;
