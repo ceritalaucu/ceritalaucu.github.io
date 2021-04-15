@@ -177,20 +177,20 @@
 
 /* FEEDBACK SECTION */
 .feedback{
-	background:#fff;
+	background:#0f4c75;
 }
 .feedback-header{
 	padding-top:10px;
-	color: #555;
+	color: rgb(255, 255, 255);
 	margin-bottom:10px;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 2px;
 	text-align: center;
-	font-family:ubuntu;
+	font-family:Caveat,cursive;
 }
 
 .content{
-    background: #fff;
+    background: #0f4c75;
     width:100%;
     padding: 20px 30px;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
@@ -242,8 +242,9 @@ li div{
     float: left;
     width: 38%;
     margin: 0;
-    border: 0;
-    border-bottom: 1px solid #eee;
+	border: 0;
+	background: #0f4c75;
+    border-bottom: 1px solid rgb(255, 255, 255);
     margin: 0 1%;
     padding: 10px;
     display: block;
@@ -253,7 +254,7 @@ li div{
 
 #add-feedback-form input:focus{
     outline: none;
-    border-bottom: 3px solid #88236f;
+    border-bottom: 3px solid #49a81a;
     padding-bottom: 8px;
     transition: all ease 0.2s;
 }
@@ -266,15 +267,14 @@ li div{
 
 #feedback-button{
     border: 0;
-    background: #fff;
-    border-radius: 10px;
+    background: #0f4c75;
     padding: 13px;
     width: 14%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
     font-family: ubuntu;
     letter-spacing: 1px;
-    color: #999;
+    color: rgb(255, 255, 255);
 }
 /* FEEDBACK SECTION */
 
