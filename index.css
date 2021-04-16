@@ -180,13 +180,12 @@
 	background:#0f4c75;
 }
 .feedback-header{
-	padding-top:10px;
 	color: rgb(255, 255, 255);
-	margin-bottom:10px;
+	margin-bottom:1rem;
     font-size: 30px;
     letter-spacing: 2px;
 	text-align: center;
-	font-family:Caveat,cursive;
+	font-family:ubuntu;
 }
 
 .content{
@@ -235,41 +234,51 @@ li div{
     text-align: center;
     padding: 10px 0;
     font-weight:  bold;
-    cursor:  pointer;
+    cursor: pointer;
 }
 
-#add-feedback-form input{
-    float: left;
-    width: 38%;
-    margin: 0;
-	border: 0;
-	background: #0f4c75;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    margin: 0 1%;
-    padding: 10px;
-    display: block;
-    box-sizing: border-box;
-    font-size: 14px;
+.form-group{
+	margin: 0 auto 1rem auto;
+	max-width:360px;
+	font-family:ubuntu;
 }
 
-#add-feedback-form input:focus{
+.form-label{
+	color:#fff;
+	padding-bottom:2rem;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 2.375rem;
+	padding: 0.5rem 0.5rem;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus{
     outline: none;
-    border-bottom: 3px solid #49a81a;
+    border-bottom: 3px solid #37af65;
     padding-bottom: 8px;
     transition: all ease 0.2s;
 }
 
-#add-feedback-form:after{
-    content: '';
-    clear: both;
-    display: block;
+.input-textarea{
+	min-height: 120px;
+	width: 100%;
+	resize: vertical;
 }
 
 #feedback-button{
     border: 0;
-    background: #0f4c75;
+    background: #37af65;
     padding: 13px;
-    width: 14%;
+    width: 100%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
     font-family: ubuntu;
