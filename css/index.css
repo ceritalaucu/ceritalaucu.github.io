@@ -148,31 +148,6 @@
 }
 /* BANNER HEADER */
 
-/* WHOAMI */
-.whoami{
-	height:100vh;
-	background-color:#e4e4e4;
-}
-/* WHOAMI */
-
-.whatfeatures{
-	height:100vh;
-	background-color:#0f4c75;
-	background-position:right;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;  
-}
-
-.ourcontent{
-	height:100vh;
-	background-color:#0f4c75;
-}
-
 /* BODY CSS */
 
 /* FEEDBACK SECTION */

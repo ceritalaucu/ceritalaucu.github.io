@@ -1,0 +1,108 @@
+  <a href='https://www.freepik.com/vectors/flower'>Flower vector created by upklyak - www.freepik.com</a>
+  
+  /* WHOAMI */
+  .whoami{
+	height:100vh;
+	background-color:#e4e4e4;
+  }
+  /* WHOAMI */
+
+  .whatfeatures{
+	height:100vh;
+	background-color:#0f4c75;
+	background-position:right;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;  
+  }
+
+  .ourcontent{
+	height:100vh;
+	background-color:#0f4c75;
+  }
+
+  CREDIT ABOUT
+  https://www.freepik.com/upklyak
+
+  <div class="header-words">
+    <a class="idnstory-btn">Cerita Dari Indonesia
+      <span class="fas fa-caret-down first"></span>
+    </a>
+    <div class="idnstory-show kisah-show">
+      <div><a href="404.html">Ikan Dan Seorang Pedagang</a></div>
+      <div><a href="404.html">Pelajar Dan Ilmu</a></div>
+      <div><a href="404.html">Belajar Silat Dari Xi Anzing</a></div>
+      <div><a href="404.html">Berlayar Ke Samudra Hindia</a></div>
+      <div><a href="404.html">Dimana Ada Uang Disitu Ada Yang Memiliki</a></div>
+      <div><a href="404.html">Jangan Sampai Jatuh...</a></div>
+    </div>
+  </div>
+  <div class="header-words">
+    <a class="russtory-btn">Cerita Dari Rusia 
+      <span class="fas fa-caret-down second"></span>
+    </a>
+    <div class="russtory-show kisah-show">
+      <div><a href="404.html">Bertarung Dengan Beruang</a></div>
+      <div><a href="404.html">Dinginnya Suasana Pagi</a></div>
+      <div><a href="404.html">Pemabuk Yang Baik Hati</a></div>
+      <div><a href="404.html">Mencari Ahli Programmer</a></div>
+    </div>
+  </div>
+  <div class="header-words">
+    <a class="chnstory-btn">Cerita Dari Cina
+      <span class="fas fa-caret-down third"></span>
+    </a>
+    <div class="chnstory-show kisah-show">
+      <div><a href="404.html">Ahli Kungfu Dan Bakpao</a></div>
+      <div><a href="404.html">Menjadi Orang Baik</a></div>
+      <div><a href="404.html">Bertarung Melawan Naga Lucu</a></div>
+      <div><a href="404.html">Terdampar Di Pulau Manusia Ikan</a></div>
+      <div><a href="404.html">Nasihat Dari Seorang Lao Tzu</a></div>
+    </div>
+  </div>
+  <div class="header-words">
+    <a class="usastory-btn">Cerita Dari Amerika
+      <span class="fas fa-caret-down fourth"></span>
+    </a>
+    <div class="usastory-show kisah-show">
+      <div><a href="404.html">Ikan Dan Seorang Pengemis</a></div>
+      <div><a href="404.html">Makan Hamburger Pedas</a></div>
+      <div><a href="404.html">Orang Yang Tidak Bisa Bahasa Inggris</a></div>
+      <div><a href="404.html">Sulitnya Menjadi Orang Sportif</a></div>
+      <div><a href="404.html">Belajar Di Harvard University</a></div>
+    </div>
+  </div>
+
+
+
+  <iframe src="https://lichess.org/embed/dIeavwlr#0?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/4gWioZl7?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/ZJPguOqd?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/3f2FOoMo#50?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/pFVB0Dqg#62?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/9Bgt9vHZ?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/YbQNHD67#39?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/53A5eTlw?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/lYgWXMy7#42?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/IpepmVET#44?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/sdhgFNdc#54?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/6Hb16XRT#80?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/FHJSZYoU#0?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
+
+  <iframe src="https://lichess.org/embed/F5Bo3Mb2?theme=auto&bg=auto"width=600 height=397 frameborder=0></iframe>
