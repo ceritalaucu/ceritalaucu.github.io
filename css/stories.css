@@ -34,15 +34,15 @@
 
 .header-nav{
 	font-family:ubuntu;
-
 	background-color:#202225;
 	width:100%;
 	position:fixed;
 	display:block;
+	padding:10px;
 }
 
 .header-logo{
-	color:rgb(184,184,184);
+	color:white;
 	font-size:20px;
 	line-height:50px;
 	margin-left:10px;
@@ -57,7 +57,7 @@
 }
 
 .header-nav a{
-	color:rgb(184,184,184);
+	color:white;
 	font-size:15px;
 	padding-right:40px;
 }
@@ -72,7 +72,7 @@
 }
 
 .menubtn span{
-	color:rgb(184,184,184);
+	color:white;
 	font-size:20px;
 }
 
@@ -117,18 +117,17 @@
     font-family:"Caveat",cursive;
     text-align:center;
     padding:10rem 2rem;
-    background:#0f4c75;
+    background:#0061a8;
 }
 .stories-section-header{
-	color:white;
+	color:black;
 	max-width:640px;
 	font-size:40px;
     margin:0 auto 3rem auto;
-    border-bottom:2px solid white;
 }
 
 .ourstories{
-	color:rgb(225, 224, 224);
+	color:white;
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
     grid-gap:4rem;
@@ -181,7 +180,7 @@ footer {
 	background-color: #202225;
 	line-height:50px;
 	text-align: center;
-	color:rgb(184, 184, 184);
+	color:white;
 }
 /* FOOTER CSS */
 @media (max-width: 720px) {
@@ -194,7 +193,7 @@ footer {
 		width:70%;
 		height:100vh;
 		background:#21466b;
-		top:50px;
+		top:70px;
 		left:-70%;
 		overflow:auto;
 		transition:left 0.4s ease;
