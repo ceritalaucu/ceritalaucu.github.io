@@ -60,6 +60,7 @@
 	color:white;
 	font-size:15px;
 	padding-right:40px;
+	cursor:pointer;
 }
 
 .menubtn{
@@ -124,6 +125,10 @@
     width:100%;
     max-width:1280px;
     margin:0 auto;
+}
+
+.ourstories a{
+	cursor:pointer;
 }
   
 .story-grid{
