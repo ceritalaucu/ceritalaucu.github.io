@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // var days=20;
-var preloader =document.getElementById("loading-page");
+var preloader =document.querySelector(".loading-page");
 
 function preloading(){
     preloader.style.display = "none";

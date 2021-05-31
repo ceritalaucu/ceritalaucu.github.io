@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // var days=20;
-var preloader =document.getElementById("loading-page");
+var preloader =document.querySelector(".loading-page");
 var today;
 var hours;
 var minutes;
@@ -49,6 +49,6 @@ function startTime(){
     hours=checkTime(hours);
     minutes=checkTime(minutes);
     seconds=checkTime(seconds);
-    document.getElementById("nowTime").innerHTML=hours+" : "+minutes+" : "+seconds;
+    document.querySelector(".nowTime").innerHTML=hours+" : "+minutes+" : "+seconds;
     t=setTimeout(startTime,500);
 }
