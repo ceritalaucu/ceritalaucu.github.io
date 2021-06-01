@@ -118,22 +118,22 @@
 }
 
 .bh-text{
-	font-family:"Caveat",cursive;
-	color:black;
-	font-size:40px;
+	font-family:"Caveat",ubuntu;
+	color:#202225;
+	font-size:4em;
 }
 .bh-reminder{
-	padding:15px;
+	margin:20px;
+	padding:20px;
 	background:#202225;
-	font-family:"Lato",cursive;
+	font-family:"Lato",ubuntu;
 	color:white;
-	font-size:1.25rem;
+	font-size:20px;
 }
 .nowTime{
-	margin-top:2rem;
-	color:white;
-	font-family:"Londrina Sketch",cursive;
-	font-size:3rem;
+	color:#202225;
+	font-family:ubuntu;
+	font-size:2em;
 }
 /* BANNER HEADER */
 
