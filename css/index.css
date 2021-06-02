@@ -75,20 +75,8 @@ body {
 	transition:.4s ease;
 }
 
-.menubtn .menu{
-	width: 30px;
-	height: 30px;
-	background: url(../icons/menu.svg);
-	background-size: contain;
-	border: none;
-}
-
-.menubtn .close{
-	width: 30px;
-	height: 30px;
-	background: url(../icons/close.svg);
-	background-size: contain;
-	border: none;
+.menubtn i{
+	color:white;
 }
 
 .header-nav .menu-item{

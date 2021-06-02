@@ -1,18 +1,19 @@
-
 document.addEventListener("DOMContentLoaded", function() {
+    const getCSS = el => {
+        return window.getComputedStyle(el,null);
+    };
     const menuBtn = document.querySelector(".menubtn");
     menuBtn.addEventListener("click", function(e) {
         e.preventDefault();
+        const menuIcon = menuBtn.firstElementChild;
         const menuContent = document.querySelector(".menu-content");
-        if (menuBtn.firstElementChild.className === "menu"){
-            menuBtn.firstElementChild.classList.add("close");
-            menuBtn.firstElementChild.classList.remove("menu");
-            console.log("menu telah dibuka")
+        if (menuIcon.classList.contains("fa-bars")){
+            menuIcon.classList.add("fa-times");
+            menuIcon.classList.remove("fa-bars");
             menuContent.style.left = 0;
         } else {
-            menuBtn.firstElementChild.classList.add("menu");
-            menuBtn.firstElementChild.classList.remove("close");
-            console.log("menu telah ditutup");
+            menuIcon.classList.add("fa-bars");
+            menuIcon.classList.remove("fa-times");
             menuContent.style.left = "-100%";
         }
     });
