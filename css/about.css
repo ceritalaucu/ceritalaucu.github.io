@@ -177,11 +177,11 @@ footer {
 	}
 	.menu-content{
 		position:fixed;
-		width:70%;
+		width:100%;
 		height:100vh;
 		background:#202225;
 		top:70px;
-		left:-70%;
+		left:-100%;
 		overflow:auto;
 		transition:left 0.4s ease;
 		padding:0 15px 0 15px;

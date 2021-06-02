@@ -14,6 +14,10 @@
 	list-style:none;
 }
 
+body {
+	font-family:"Lato",ubuntu;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -71,13 +75,20 @@
 	transition:.4s ease;
 }
 
-.menubtn span{
-	color:white;
-	font-size:20px;
+.menubtn .menu{
+	width: 30px;
+	height: 30px;
+	background: url(../icons/menu.svg);
+	background-size: contain;
+	border: none;
 }
 
-.menubtn.click span:before{
-	content:"\f00d";
+.menubtn .close{
+	width: 30px;
+	height: 30px;
+	background: url(../icons/close.svg);
+	background-size: contain;
+	border: none;
 }
 
 .header-nav .menu-item{
@@ -116,23 +127,15 @@
 	justify-content:center;
 	align-items:center;
 }
-
-.bh-text{
-	font-family:"Caveat",ubuntu;
-	color:#202225;
-	font-size:4em;
-}
 .bh-reminder{
 	margin:20px;
 	padding:20px;
 	background:#202225;
-	font-family:"Lato",ubuntu;
 	color:white;
 	font-size:20px;
 }
 .nowTime{
-	color:#202225;
-	font-family:ubuntu;
+	color:#01518a;
 	font-size:2em;
 }
 /* BANNER HEADER */
@@ -149,7 +152,6 @@
     font-size: 30px;
     letter-spacing: 2px;
 	text-align: center;
-	font-family:ubuntu;
 }
 
 .feedback-content{
@@ -206,7 +208,6 @@ li div{
 	flex-direction:column;
 	margin: 0 auto 1rem auto;
 	max-width:360px;
-	font-family:ubuntu;
 }
 
 .form-label{
@@ -240,7 +241,6 @@ li div{
     width: 100%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
-    font-family: ubuntu;
     letter-spacing: 1px;
     color: rgb(255, 255, 255);
 }
@@ -267,19 +267,14 @@ footer {
 	}
 	.menu-content{
 		position:fixed;
-		width:70%;
+		width:100%;
 		height:100vh;
 		background:#202225;
 		top:70px;
-		left:-70%;
+		left:-100%;
 		overflow:auto;
 		transition:left 0.4s ease;
 		padding:0 15px 0 15px;
-	}
-
-	.menu-content.click{
-		left:0;
-		padding-bottom:30px;
 	}
 
 	.header-nav .menu-item{
