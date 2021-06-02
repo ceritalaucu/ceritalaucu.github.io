@@ -264,12 +264,10 @@ footer {
 		transition:left 0.4s ease;
 		padding:0 15px 0 15px;
 	}
-
 	.header-nav .menu-item{
 		display:block;
 	}
-
-	.header-nav .menu-content .learn-item{
+	.learn-item{
 		position:relative;
 	}
 	/* HEADER CSS */
