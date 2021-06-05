@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // var days=20;
-var preloader =document.querySelector(".loading-page");
-var today;
-var hours;
-var minutes;
-var seconds;
-var t;
+let preloader =document.querySelector(".loading-page");
+let today;
+let hours;
+let minutes;
+let seconds;
+let t;
 
 function preloading(){
     preloader.style.display = "none";
@@ -65,3 +65,49 @@ function startTime(){
     document.querySelector(".nowTime").innerHTML=hours+" : "+minutes+" : "+seconds;
     t=setTimeout(startTime,500);
 }
+
+const slider = document.querySelector(".slider");
+
+let pressed = false;
+let startX;
+let scrollLeft;
+
+slider.addEventListener("mousedown", (e) => {
+    pressed = true;
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+});
+slider.addEventListener("mouseleave", () => {
+    pressed = false;
+});
+slider.addEventListener("mouseup", () => {
+    pressed = false;
+});
+slider.addEventListener("mousemove", (e) => {
+    if(!pressed || window.innerWidth>=1280) return; // stop from scrolling
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const walk = x - startX;
+    slider.scrollLeft = scrollLeft - walk;
+});
+
+slider.addEventListener("touchstart", (e) => {
+    for (let i=0;i<e.changedTouches.length;i++) {
+        pressed = true;
+        startX = e.changedTouches[i].pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;    
+    }
+});
+slider.addEventListener("touchend", () => {
+    pressed = false;
+});
+slider.addEventListener("touchmove", (e) => {
+    for (let i=0;i<e.changedTouches.length;i++) {
+        pressed = true;
+        if(window.innerWidth>=1280) return; // stop from scrolling
+        e.preventDefault();
+        const x = e.changedTouches[i].pageX - slider.offsetLeft;
+        const walk = x - startX;
+        slider.scrollLeft = scrollLeft - walk;
+    }
+});

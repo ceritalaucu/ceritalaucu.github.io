@@ -128,10 +128,57 @@ body {
 }
 /* BANNER HEADER */
 
+/* SLIDER SECTION */
+.madeby{
+	font-size:5rem;
+	pointer-events: auto;
+	cursor: pointer;
+}
+.slider-header{
+	text-align: center;
+	font-size:3rem;
+	padding:0 3rem;
+	background-color:#0061a8;
+}
+.slider{
+	background-color:#0061a8;
+	margin:0 auto;
+	display:grid;
+	grid-template-columns: repeat(7, 1fr);
+	overflow:hidden;
+}
+.slide-img{
+	padding:3rem;
+	text-align:center;
+}
+/* .fa-html5{
+	color:#f06529;
+}
+.fa-css3-alt{
+	color:#264de4;
+}
+.fa-js{
+	color:#f0de4f;
+}
+.fa-github{
+	color:black;
+}
+.fa-git{
+	color:#f34f29;
+}
+.fa-ubuntu{
+	color:#dd4814;
+}
+.fa-font-awesome{
+	color:#1684d3;
+} */
+/* SLIDER SECTION */
+
 /* BODY CSS */
 
 /* FEEDBACK SECTION */
 .feedback{
+	padding-top: 3rem;
 	background:#0061a8;
 }
 .feedback-header{
