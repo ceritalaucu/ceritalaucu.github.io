@@ -123,7 +123,7 @@ body {
 	font-size:20px;
 }
 .nowTime{
-	color:#044370;
+	color:#202225;
 	font-size:2em;
 }
 /* BANNER HEADER */
@@ -135,6 +135,7 @@ body {
 	cursor: pointer;
 }
 .slider-header{
+	color:#ffffff;
 	text-align: center;
 	font-size:3rem;
 	padding:0 3rem;
@@ -150,6 +151,9 @@ body {
 .slide-img{
 	padding:3rem;
 	text-align:center;
+}
+.slide-img i{
+	color:#ffffff;
 }
 /* .fa-html5{
 	color:#f06529;
@@ -178,11 +182,11 @@ body {
 
 /* FEEDBACK SECTION */
 .feedback{
-	padding-top: 3rem;
+	padding-top: 10rem;
 	background:#0061a8;
 }
 .feedback-header{
-	color: black;
+	color: rgb(255, 255, 255);
 	margin-bottom:1rem;
     font-size: 30px;
     letter-spacing: 2px;
