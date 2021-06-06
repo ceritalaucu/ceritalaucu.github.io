@@ -8,7 +8,7 @@
 :root {
     --main-white: #f0f0f0;
     --main-red: #be3144;
-	--main-blue: #45567d;
+	--main-blue: #0061a8;
 	/* --main-gray: #303841 */
     --main-gray: #202225;
 }
@@ -35,7 +35,7 @@
 
 .header-nav{
 	font-family:ubuntu;
-	background-color:#202225;
+	background-color:#303841;
 	width:100%;
 	position:fixed;
 	display:block;
@@ -48,7 +48,7 @@
 	line-height:50px;
 	margin-left:10px;
 	padding:7px;
-	background-color:black;
+	background-color:#202225;
 	border-radius:7px;
 }
 
@@ -104,10 +104,10 @@
     font-family:"Caveat",cursive;
     text-align:center;
     padding:4rem 2rem;
-    background:#0061a8;
+    background:#202225;
 }
 .stories-section-header{
-	color:black;
+	color:white;
 	max-width:640px;
 	font-size:40px;
     margin:1rem auto 1rem auto;
@@ -128,18 +128,18 @@
 }
   
 .story-grid{
-    background: var(--main-gray);
+    background: #303841;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
 }
   
 .code {
-    color: var(--main-gray);
+    color: white;
     transition: color 0.3s ease-out;
 }
   
 .story-grid:hover .code {
-    color: #ff7f50;
+    color: rgb(0, 255, 145);
   }
   
 .story-image {
@@ -159,8 +159,8 @@
 footer {
 	font-family:ubuntu;
 	font-size: 13px;
-	background-color: #202225;
-	line-height:50px;
+	background-color: #303841;
+	padding: 20px;
 	text-align: center;
 	color:white;
 }
@@ -174,7 +174,7 @@ footer {
 		position:fixed;
 		width:100%;
 		height:100vh;
-		background:#202225;
+		background:#303841;
 		top:70px;
 		left:-100%;
 		overflow:auto;

@@ -37,7 +37,7 @@ body {
 
 .header-nav{
 	font-family:ubuntu;
-	background-color:#202225;
+	background-color:#393e46;
 	width:100%;
 	position:fixed;
 	display:block;
@@ -50,7 +50,7 @@ body {
 	line-height:50px;
 	margin-left:10px;
 	padding:7px;
-	background-color:black;
+	background-color:#202225;
 	border-radius:7px;
 }
 
@@ -104,8 +104,9 @@ body {
 
 /* BANNER HEADER */
 .banner-header{
+	/* BLUE : #007bff */
 	height:100vh;
-	background-color:#0061a8;
+	background-color:#202225;
 	background-position:right;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -118,12 +119,13 @@ body {
 .bh-reminder{
 	margin:20px;
 	padding:20px;
-	background:#202225;
+	background:#007bff;
 	color:white;
 	font-size:20px;
+	border-radius:10px;
 }
 .nowTime{
-	color:#202225;
+	color:white;
 	font-size:2em;
 }
 /* BANNER HEADER */
@@ -139,10 +141,10 @@ body {
 	text-align: center;
 	font-size:3rem;
 	padding:0 3rem;
-	background-color:#0061a8;
+	background-color:#202225;
 }
 .slider{
-	background-color:#0061a8;
+	background-color:#202225;
 	margin:0 auto;
 	display:grid;
 	grid-template-columns: repeat(7, 1fr);
@@ -183,7 +185,7 @@ body {
 /* FEEDBACK SECTION */
 .feedback{
 	padding-top: 10rem;
-	background:#0061a8;
+	background:#202225;
 }
 .feedback-header{
 	color: rgb(255, 255, 255);
@@ -194,7 +196,7 @@ body {
 }
 
 .feedback-content{
-    background: #0061a8;
+    background: #202225;
     width:100%;
     padding: 20px 30px;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
@@ -275,7 +277,7 @@ li div{
 
 #feedback-button{
     border: 0;
-    background: #01518a;
+    background: #007bff;
     padding: 13px;
     width: 100%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
@@ -285,7 +287,7 @@ li div{
 }
 
 #feedback-button:hover{
-	background:#044370;
+	background:#0069da;
 }
 /* FEEDBACK SECTION */
 
@@ -293,8 +295,8 @@ li div{
 footer {
 	font-family:ubuntu;
 	font-size: 13px;
-	background-color: #202225;
-	line-height:50px;
+	background-color: #393e46;
+	padding: 20px;
 	text-align: center;
 	color:white;
 }
@@ -308,7 +310,7 @@ footer {
 		position:fixed;
 		width:100%;
 		height:100vh;
-		background:#202225;
+		background:#393e46;
 		top:70px;
 		left:-100%;
 		overflow:auto;
