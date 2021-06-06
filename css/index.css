@@ -80,7 +80,7 @@ body {
 }
 
 .menu-item{
-	display:inline;
+	display:inline-block;
 	line-height:50px;
 }
 
