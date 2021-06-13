@@ -99,8 +99,6 @@ body {
 
 /* BODY CSS */
 
-/* BEST GREY BACKGROUND COLOR : #303841 */
-
 /* BANNER HEADER */
 .banner-header{
 	/* BLUE : #007bff */
@@ -296,6 +294,7 @@ footer {
 	color:white;
 }
 /* FOOTER CSS */
+
 @media screen and (max-width: 720px) {
 	/* HEADER CSS */
 	.menubtn{

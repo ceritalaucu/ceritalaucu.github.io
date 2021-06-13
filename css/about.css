@@ -102,9 +102,6 @@
 /* HEADER CSS */
 
 /* BODY CSS */
-
-/* BEST GREY BACKGROUND COLOR : #303841 */
-
 .stories-section{
     font-family:"Caveat",cursive;
     text-align:center;
@@ -156,7 +153,6 @@
     font-size: 2rem;
     padding: 2rem 0.5rem;
 }
-
 /* BODY CSS */
 
 /* FOOTER CSS */
@@ -169,6 +165,7 @@ footer {
 	color:white;
 }
 /* FOOTER CSS */
+
 @media screen and (max-width: 720px) {
 	/* HEADER CSS */
 	.menubtn{
