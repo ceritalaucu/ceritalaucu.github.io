@@ -21,7 +21,6 @@ body {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    margin-top: 20px;
 }
 
 .loading-page{
@@ -61,7 +60,7 @@ body {
 
 .header-nav a{
 	color:white;
-	font-size:15px;
+	font-size:1em;
 	padding-right:40px;
 	cursor:pointer;
 }
@@ -73,6 +72,7 @@ body {
 	width:45px;
 	float:right;
 	transition:.4s ease;
+	font-size: 1.5em;
 }
 
 .menubtn i{
@@ -87,12 +87,11 @@ body {
 .learn-item{
 	display:none;
 	position:absolute;
-	background-color:#202225;
-	box-shadow:0px 8px 16px 0px rgba(0,0,0,1);
+	background-color:#495057;
 }
 
 .learn-item a{
-	font-size:15px;
+	font-size:0.9em;
 	padding:0 10px;
 	display:block;
 }
@@ -119,7 +118,7 @@ body {
 .bh-reminder{
 	margin:20px;
 	padding:20px;
-	background:#007bff;
+	background:#495057;
 	color:white;
 	font-size:20px;
 	border-radius:10px;
@@ -273,7 +272,7 @@ li div{
 
 #feedback-button{
     border: 0;
-    background: #007bff;
+    background: #ff6701;
     padding: 13px;
     width: 100%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
@@ -283,7 +282,7 @@ li div{
 }
 
 #feedback-button:hover{
-	background:#0069da;
+	background:#d65600;
 }
 /* FEEDBACK SECTION */
 

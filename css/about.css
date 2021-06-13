@@ -22,6 +22,11 @@
 	list-style:none;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
 .loading-page{
 	width:100%;
 	height:100vh;
@@ -59,7 +64,7 @@
 
 .header-nav a{
 	color:white;
-	font-size:15px;
+	font-size:1em;
 	padding-right:40px;
 	cursor:pointer;
 }
@@ -71,6 +76,7 @@
 	width:45px;
 	float:right;
 	transition:.4s ease;
+	font-size: 1.5em;
 }
 
 .menubtn i{
@@ -85,12 +91,11 @@
 .learn-item{
 	display:none;
 	position:absolute;
-	background-color:#202225;
-	box-shadow:0px 8px 16px 0px rgba(0,0,0,1);
+	background-color:#495057;
 }
 
 .learn-item a{
-	font-size:15px;
+	font-size:0.9em;
 	padding:0 10px;
 	display:block;
 }
@@ -129,9 +134,7 @@
 }
   
 .story-grid{
-    background: #303841;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
+    background: #495057;
 }
   
 .code {
@@ -140,7 +143,7 @@
 }
   
 .story-grid:hover .code {
-    color: rgb(0, 255, 145);
+    color: #ff6701;
   }
   
 .story-image {
