@@ -1,3 +1,8 @@
+window.onload = () => {
+    const preloader = document.querySelector(".loading-page");
+    preloader.style.display = "none";
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     const getCSS = el => {
         return window.getComputedStyle(el,null);
@@ -31,10 +36,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     })
 });
-
-// var days=20;
-var preloader =document.querySelector(".loading-page");
-
-function preloading(){
-    preloader.style.display = "none";
-}

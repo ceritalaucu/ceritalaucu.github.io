@@ -118,7 +118,7 @@ body {
 .bh-reminder{
 	margin:20px;
 	padding:20px;
-	background:#495057;
+	background:#d65600;
 	color:white;
 	font-size:20px;
 	border-radius:10px;
@@ -272,7 +272,7 @@ li div{
 
 #feedback-button{
     border: 0;
-    background: #ff6701;
+    background: #d65600;
     padding: 13px;
     width: 100%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
@@ -282,7 +282,7 @@ li div{
 }
 
 #feedback-button:hover{
-	background:#d65600;
+	background:#c24e00;
 }
 /* FEEDBACK SECTION */
 
