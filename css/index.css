@@ -40,17 +40,13 @@ body {
 	width:100%;
 	position:fixed;
 	display:block;
-	padding:10px;
+	padding:10px 20px;
 }
 
 .header-logo{
 	color:white;
 	font-size:20px;
 	line-height:50px;
-	margin-left:10px;
-	padding:7px;
-	background-color:#202225;
-	border-radius:7px;
 }
 
 .menu-content{
@@ -72,7 +68,7 @@ body {
 	width:45px;
 	float:right;
 	transition:.4s ease;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .menubtn i{
@@ -116,7 +112,7 @@ body {
 .bh-reminder{
 	margin:20px;
 	padding:20px;
-	background:#d65600;
+	background:#e85d00;
 	color:white;
 	font-size:20px;
 	border-radius:10px;
@@ -270,7 +266,7 @@ li div{
 
 #feedback-button{
     border: 0;
-    background: #d65600;
+    background: #e85d00;
     padding: 13px;
     width: 100%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
