@@ -94,8 +94,6 @@ body {
 /* HEADER CSS */
 
 /* BODY CSS */
-
-/* BANNER HEADER */
 .banner-header{
 	/* BLUE : #007bff */
 	height:100vh;
@@ -121,14 +119,61 @@ body {
 	color:white;
 	font-size:2em;
 }
-/* BANNER HEADER */
 
-/* SLIDER SECTION */
+.intro{
+	padding-top:10rem;
+	text-align:center;
+	font-size:2rem;
+	display:grid;
+	grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+	grid-gap:2rem;
+	background-color:#202225;
+}
+.intro .slogan{
+	color:white;
+}
+
+.tujuan{
+	font-size:2rem;
+	padding-top:10rem;
+	text-align:center;
+	background-color:#202225;
+	padding-bottom:5rem;
+}
+.tujuan .header{
+	color:white;
+	padding-bottom:2rem;
+}
+.tujuan-grid{
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+	grid-gap:2rem;
+}
+.tujuan .isi{
+	padding:20px;
+	margin:0 auto;
+	color:white;
+	background-color:#495057;
+}
+
+.outro{
+	padding-top:10rem;
+	text-align:center;
+	background-color:#202225;
+}
+.outro .mulai{
+	padding:20px;
+	font-size:2em;
+	color:white;
+	background-color:#e85d00;
+	border-radius:20px;
+}
+
 .slider-header{
 	color:#ffffff;
 	text-align: center;
 	font-size:2em;
-	padding:0 3rem;
+	padding-top:10rem;
 	background-color:#202225;
 }
 .slider{
