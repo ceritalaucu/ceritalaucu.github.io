@@ -155,7 +155,7 @@ body {
 }
 .tujuan .isi{
 	padding:20px;
-	margin:0 auto;
+	margin:0 auto 10px auto;
 	font-size:1.5em;
 	color:white;
 	background-color:#495057;
@@ -368,6 +368,9 @@ footer {
 	/* BODY CSS */
 	.intro{
 		flex-direction:column;
+	}
+	.intro img{
+		width:75%;
 	}
 	.intro .slogan{
 		font-size:1.5em;
