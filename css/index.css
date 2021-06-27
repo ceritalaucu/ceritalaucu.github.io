@@ -94,38 +94,11 @@ body {
 /* HEADER CSS */
 
 /* BODY CSS */
-.banner-header{
-	/* BLUE : #007bff */
-	height:100vh;
-	background-color:#202225;
-	background-position:right;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-}
-.bh-reminder{
-	margin:20px;
-	padding:20px;
-	background:#e85d00;
-	color:white;
-	font-size:20px;
-	border-radius:10px;
-}
-.nowTime{
-	color:white;
-	font-size:2em;
-}
-
 .intro{
-	padding:5rem 20px 0 20px;
+	padding:10rem 40px 5rem 40px;
 	margin:0 auto;
 	text-align:center;
 	display:flex;
-	grid-gap:1em;
 	background-color:#202225;
 }
 .intro img{
@@ -138,10 +111,9 @@ body {
 }
 
 .tujuan{
-	padding-top:10rem;
 	text-align:center;
 	background-color:#202225;
-	padding-bottom:5rem;
+	padding-bottom:10rem;
 }
 .tujuan .header{
 	font-size:2em;
@@ -149,186 +121,29 @@ body {
 	padding-bottom:2rem;
 }
 .tujuan-grid{
-	margin:auto 0;
 	display:flex;
 	grid-gap:1em;
 }
 .tujuan .isi{
 	padding:20px;
-	margin:0 auto 10px auto;
+	margin:0 auto 0 auto;
 	font-size:1.5em;
 	color:white;
 	background-color:#495057;
 }
 
 .outro{
-	padding-top:5rem;
 	text-align:center;
 	background-color:#202225;
+	padding-bottom:10rem;
 }
 .outro .mulai{
 	padding:20px;
 	color:white;
-	font-size:2em;
+	font-size:20px;
 	background-color:#e85d00;
-	border-radius:20px;
+	border-radius:5px;
 }
-
-.slider-header{
-	color:#ffffff;
-	text-align: center;
-	font-size:2em;
-	padding-top:10rem;
-	background-color:#202225;
-}
-.slider{
-	background-color:#202225;
-	margin:0 auto;
-	display:grid;
-	grid-template-columns: repeat(7, 1fr);
-	overflow:hidden;
-}
-.slide-img{
-	padding:3rem;
-	font-size:3em;
-	text-align:center;
-	cursor:pointer;
-}
-.slide-img i{
-	color:#ffffff;
-}
-/* .fa-html5{
-	color:#f06529;
-}
-.fa-css3-alt{
-	color:#264de4;
-}
-.fa-js{
-	color:#f0de4f;
-}
-.fa-github{
-	color:black;
-}
-.fa-git{
-	color:#f34f29;
-}
-.fa-ubuntu{
-	color:#dd4814;
-}
-.fa-font-awesome{
-	color:#1684d3;
-} */
-/* SLIDER SECTION */
-
-/* BODY CSS */
-
-/* FEEDBACK SECTION */
-.feedback{
-	padding-top: 10rem;
-	background:#202225;
-}
-.feedback-header{
-	color: rgb(255, 255, 255);
-	margin-bottom:1rem;
-    font-size: 2em;
-	text-align: center;
-}
-
-.feedback-content{
-    background: #202225;
-    width:100%;
-    padding: 20px 30px;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
-}
-
-/* ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-li{
-    padding: 20px;
-    background: #f6f6f6;
-    font-size: 20px;
-    color: #555;
-    position: relative;
-    border-bottom: 1px solid #e6e6e6;
-    height: 100px;
-}
-
-li:nth-child(even){
-    padding: 20px;
-    background: #f2f2f2;
-}
-
-li span{
-    display: block;
-}
-
-li span:nth-child(2){
-    font-size: 16px;
-    margin-top: 6px;
-    color: #999;
-}
-
-li div{
-    position: absolute;
-    top: 0;
-    right: 0px;
-    background: rgba(255,255,255,0.6);
-    width: 40px;
-    text-align: center;
-    padding: 10px 0;
-    font-weight:  bold;
-    cursor: pointer;
-} */
-
-.form-group{
-	display:flex;
-	flex-direction:column;
-	margin: 0 auto 1rem auto;
-	max-width:360px;
-}
-
-.form-label{
-	color:white;
-	padding-bottom:10px;
-}
-
-.form-control {
-	display: block;
-	width: 100%;
-	height: 2.375rem;
-	padding: 0.5rem 0.5rem;
-	color: #495057;
-	background-color: #fff;
-	border: 2px solid #fff;
-	border-radius: 10px;
-	outline: none;
-	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.input-textarea{
-	min-height: 120px;
-	width: 100%;
-	resize: vertical;
-}
-
-#feedback-button{
-    border: 0;
-    background: #e85d00;
-    padding: 13px;
-    width: 100%;
-    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: rgb(255, 255, 255);
-}
-
-#feedback-button:hover{
-	background:#c24e00;
-}
-/* FEEDBACK SECTION */
 
 /* FOOTER CSS */
 footer {
@@ -367,7 +182,7 @@ footer {
 
 	/* BODY CSS */
 	.intro{
-		flex-direction:column;
+		flex-direction: column;
 	}
 	.intro img{
 		width:75%;
