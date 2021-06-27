@@ -99,7 +99,6 @@ body {
 	margin:0 auto;
 	text-align:center;
 	display:flex;
-	grid-gap:1em;
 	background-color:#202225;
 }
 .intro img{
@@ -121,9 +120,9 @@ body {
 	color:white;
 	padding-bottom:2rem;
 }
-.tujuan-grid{
+.tujuan-list{
 	display:flex;
-	gap:30px;
+	grid-gap:30px;
 }
 .tujuan .isi{
 	padding:20px;
@@ -192,7 +191,7 @@ footer {
 		font-size:1.5em;
 	}
 
-	.tujuan-grid{
+	.tujuan-list{
 		flex-direction:column;
 	}
 	.tujuan .isi{
