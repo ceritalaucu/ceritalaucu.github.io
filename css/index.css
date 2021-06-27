@@ -120,7 +120,7 @@ body {
 	color:white;
 	padding-bottom:2rem;
 }
-.tujuan-list{
+.tujuan-grid{
 	display:flex;
 	grid-gap:30px;
 }
@@ -191,7 +191,7 @@ footer {
 		font-size:1.5em;
 	}
 
-	.tujuan-list{
+	.tujuan-grid{
 		flex-direction:column;
 	}
 	.tujuan .isi{
