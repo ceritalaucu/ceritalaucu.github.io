@@ -1,4 +1,4 @@
-window.onload = () => {
+window.addEventListener("load", () => {
     const preloader = document.querySelector(".loading-page");
     preloader.style.display = "none";
 
@@ -31,7 +31,7 @@ window.onload = () => {
         t=setTimeout(startTime,500);
     }
     startTime();
-}
+})
 
 document.addEventListener("DOMContentLoaded", function() {
     const getCSS = el => {
