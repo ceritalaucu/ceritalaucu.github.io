@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root {
     --main-white: #f0f0f0;
@@ -23,7 +24,7 @@
 }
 
 body {
-	font-family:"Lato",ubuntu;
+	font-family:"Lato",Ubuntu;
 }
 
 .card {
@@ -43,7 +44,7 @@ body {
 }
 
 .header-nav{
-	font-family:ubuntu;
+	font-family:Ubuntu;
 	background-color:#303841;
 	width:100%;
 	position:fixed;
@@ -285,7 +286,7 @@ li div{
 
 /* FOOTER CSS */
 footer {
-	font-family:ubuntu;
+	font-family:Ubuntu;
 	font-size: 13px;
 	background-color: #303841;
 	padding: 20px;

@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 /*HEADER CSS */
 * {
@@ -35,7 +36,7 @@ body {
 }
 
 .header-nav{
-	font-family:ubuntu;
+	font-family:Ubuntu;
 	background-color:#202225;
 	width:100%;
 	position:fixed;
@@ -146,7 +147,7 @@ body {
 
 /* FOOTER CSS */
 footer {
-	font-family:ubuntu;
+	font-family:Ubuntu;
 	font-size: 13px;
 	background-color: #393e46;
 	padding: 20px;
