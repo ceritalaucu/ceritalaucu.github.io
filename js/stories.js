@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
         const menuIcon = menuBtn.firstElementChild;
         const menuContent = document.querySelector(".menu-content");
-        if (menuIcon.classList.contains("fa-bars")){
-            menuIcon.classList.add("fa-times");
-            menuIcon.classList.remove("fa-bars");
+        if (menuIcon.classList.contains("bi-list")){
+            menuIcon.classList.add("bi-x");
+            menuIcon.classList.remove("bi-list");
             menuContent.style.left = 0;
         } else {
-            menuIcon.classList.add("fa-bars");
-            menuIcon.classList.remove("fa-times");
+            menuIcon.classList.add("bi-list");
+            menuIcon.classList.remove("bi-x");
             menuContent.style.left = "-100%";
         }
     });
