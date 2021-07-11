@@ -51,7 +51,8 @@ document.addEventListener("DOMContentLoaded", function() {
             menuIcon.classList.remove("bi-x");
             menuContent.style.left = "-100%";
         }
-    });
+    })
+
     const learnBtn = document.querySelector(".learnbtn");
     learnBtn.addEventListener("click", function(e) {
         e.preventDefault();
@@ -66,6 +67,20 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     })
 
+    const themeSwitcher = document.querySelector(".theme-switcher");
+    themeSwitcher.addEventListener("click", changeTheme = (e) => {
+        e.preventDefault();
+        if (e.target.classList.contains("bi-sun")) {
+            e.target.classList.add("bi-moon");
+            e.target.classList.remove("bi-sun");
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            e.target.classList.add("bi-sun");
+            e.target.classList.remove("bi-moon");
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    })
+
     const slider = document.querySelector(".slider");
     let pressed = false;
     let startX;
@@ -74,30 +89,30 @@ document.addEventListener("DOMContentLoaded", function() {
         pressed = true;
         startX = e.pageX - slider.offsetLeft;
         scrollLeft = slider.scrollLeft;
-    });
+    })
     slider.addEventListener("mouseleave", () => {
         pressed = false;
-    });
+    })
     slider.addEventListener("mouseup", () => {
         pressed = false;
-    });
+    })
     slider.addEventListener("mousemove", (e) => {
         if(!pressed || window.innerWidth>=1280) return; // stop from scrolling
         e.preventDefault();
         const x = e.pageX - slider.offsetLeft;
         const walk = x - startX;
         slider.scrollLeft = scrollLeft - walk;
-    });
+    })
     slider.addEventListener("touchstart", (e) => {
         for (let i=0;i<e.changedTouches.length;i++) {
             pressed = true;
             startX = e.changedTouches[i].pageX - slider.offsetLeft;
             scrollLeft = slider.scrollLeft;    
         }
-    });
+    })
     slider.addEventListener("touchend", () => {
         pressed = false;
-    });
+    })
     slider.addEventListener("touchmove", (e) => {
         for (let i=0;i<e.changedTouches.length;i++) {
             pressed = true;
@@ -107,5 +122,5 @@ document.addEventListener("DOMContentLoaded", function() {
             const walk = x - startX;
             slider.scrollLeft = scrollLeft - walk;
         }
-    });
-});
+    })
+})

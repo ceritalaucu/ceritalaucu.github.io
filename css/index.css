@@ -16,13 +16,13 @@
 }
 
 [data-theme="light"] {
-    --bg-color:#e9dcdc;
+    --bg-color:#e2e2e2;
     --color:#333333;
     --sectioncolor:#ffffff;
 }
 [data-theme="dark"] {
     --bg-color:#333333;
-    --color:#e9dcdc;
+    --color:#e2e2e2;
     --sectioncolor:#495057;
 }
 

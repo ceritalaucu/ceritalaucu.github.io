@@ -35,4 +35,18 @@ document.addEventListener("DOMContentLoaded", function() {
             rotateLearnBtn.style.transform = "rotate(-180deg)";
         }
     })
-});
+
+    const themeSwitcher = document.querySelector(".theme-switcher");
+    themeSwitcher.addEventListener("click", changeTheme = (e) => {
+        e.preventDefault();
+        if (e.target.classList.contains("bi-sun")) {
+            e.target.classList.add("bi-moon");
+            e.target.classList.remove("bi-sun");
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            e.target.classList.add("bi-sun");
+            e.target.classList.remove("bi-moon");
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    })
+})

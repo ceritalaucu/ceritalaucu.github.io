@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
 document.addEventListener("DOMContentLoaded", function() {
     const getCSS = el => {
         return window.getComputedStyle(el,null);
-    };
+    }
 
     const menuBtn = document.querySelector(".menubtn");
     menuBtn.addEventListener("click", function(e) {
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
             menuIcon.classList.remove("bi-x");
             menuContent.style.left = "-100%";
         }
-    });
+    })
 
     const learnBtn = document.querySelector(".learnbtn");
     learnBtn.addEventListener("click", function(e) {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
             showLearnItem.style.display = "block";
             rotateLearnBtn.style.transform = "rotate(-180deg)";
         }
-    });
+    })
 
     const themeSwitcher = document.querySelector(".theme-switcher");
     themeSwitcher.addEventListener("click", changeTheme = (e) => {
@@ -50,5 +50,5 @@ document.addEventListener("DOMContentLoaded", function() {
             e.target.classList.remove("bi-moon");
             document.documentElement.setAttribute("data-theme", "light");
         }
-    });
-});
+    })
+})
