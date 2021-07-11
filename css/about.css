@@ -154,7 +154,7 @@ i {
 	background-color:var(--bg-color);
 	margin:0 auto;
 	display:grid;
-	grid-template-columns: repeat(7, 1fr);
+	grid-template-columns: repeat(9, 1fr);
 	overflow:hidden;
 }
 .slide-img{
@@ -162,9 +162,6 @@ i {
 	font-size:3em;
 	text-align:center;
 	cursor:pointer;
-}
-.slide-img i{
-	color:var(--color);
 }
 /* .fa-html5{
 	color:#f06529;
@@ -260,7 +257,7 @@ li div{
 }
 
 .form-label{
-	color:white;
+	color:var(--color);
 	padding-bottom:10px;
 }
 
