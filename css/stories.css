@@ -27,11 +27,13 @@
     --bg-color:#e2e2e2;
     --color:#333333;
     --sectioncolor:#ffffff;
+	--buttoncolor:#0084ff
 }
 [data-theme="dark"] {
     --bg-color:#333333;
     --color:#e2e2e2;
     --sectioncolor:#495057;
+	--buttoncolor:#0084ff
 }
 
 .card {
@@ -151,7 +153,7 @@ i {
 }
   
 .story-grid:hover .code {
-    color: #185adb;
+    color: var(--buttoncolor);
   }
   
 .story-image {

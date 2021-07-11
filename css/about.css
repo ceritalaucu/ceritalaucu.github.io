@@ -27,11 +27,13 @@
     --bg-color:#e2e2e2;
     --color:#333333;
     --sectioncolor:#ffffff;
+	--buttoncolor:#0084ff;
 }
 [data-theme="dark"] {
     --bg-color:#333333;
     --color:#e2e2e2;
     --sectioncolor:#495057;
+	--buttoncolor:#0084ff;
 }
 
 body {
@@ -133,7 +135,7 @@ i {
 .bh-reminder{
 	margin:20px;
 	padding:20px;
-	background:#185adb;
+	background:var(--buttoncolor);
 	color:white;
 	font-size:20px;
 	border-radius:5px;
@@ -282,7 +284,7 @@ li div{
 
 #feedback-button{
     border: 0;
-    background: #185adb;
+    background: var(--buttoncolor);
     padding: 13px;
     width: 100%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
@@ -292,7 +294,7 @@ li div{
 }
 
 #feedback-button:hover{
-	background:#c24e00;
+	background:var(--buttoncolor);
 }
 /* FEEDBACK SECTION */
 
