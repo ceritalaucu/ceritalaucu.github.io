@@ -1,10 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
     --main-white: #f0f0f0;
@@ -26,23 +24,23 @@
 [data-theme="light"] {
     --bg-color:#c8dbf8;
     --color:#1e2023;
-    --sectioncolor:#ffffff;
-	--buttoncolor:rgb(0,76,255);
+    --sectioncolor:#ddebff;
+	--buttoncolor:#014cff;
 }
 [data-theme="dark"] {
-    --bg-color:#1e2023;
-    --color:#ffffff;
-    --sectioncolor:#18191c;
-	--buttoncolor:rgb(0,76,255);
+    --bg-color:#2a2c2e;
+    --color:#ecebeb;
+    --sectioncolor:#1e2023;
+	--buttoncolor:#014cff;
 }
 
 body {
-	font-family:"Lato",Ubuntu;
+	font-family:Poppins,sans-serif;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    box-shadow: 0 10px 30px -5px rgb(0 0 0 / 9%);
+    border-radius: 10px;
 }
 
 i {
@@ -61,7 +59,6 @@ i {
 }
 
 .header-nav{
-	font-family:Ubuntu;
 	background-color:var(--bg-color);
 	width:100%;
 	position:fixed;
@@ -300,7 +297,6 @@ li div{
 
 /* FOOTER CSS */
 footer {
-	font-family:Ubuntu;
 	font-size: 13px;
 	background-color: var(--sectioncolor);
 	padding: 20px;
