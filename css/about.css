@@ -24,12 +24,12 @@
 [data-theme="light"] {
     --bg-color:#c8dbf8;
     --color:#1e2023;
-    --sectioncolor:#ddebff;
+    --sectioncolor:#ffffff;
 	--buttoncolor:#014cff;
 }
 [data-theme="dark"] {
     --bg-color:#2a2c2e;
-    --color:#ecebeb;
+    --color:#ffffff;
     --sectioncolor:#1e2023;
 	--buttoncolor:#014cff;
 }
