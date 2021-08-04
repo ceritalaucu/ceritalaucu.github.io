@@ -27,14 +27,14 @@ body {
 	--bg-color:#c8dbf8;
     --color:#1e2023;
     --sectioncolor:#ffffff;
-	--buttoncolor:#014cff;
+	--buttoncolor:#047cfd;
 }
 
 .light-mode {
     --bg-color:#2a2c2e;
     --color:#ffffff;
     --sectioncolor:#1e2023;
-	--buttoncolor:#014cff;
+	--buttoncolor:#047cfd;
 }
 
 .card {
@@ -98,7 +98,7 @@ header {
 .stories-section{
 	font-family: Caveat,sans-serif;
     text-align:center;
-    padding:4rem 2rem;
+    padding:96px 16px;
     background:var(--bg-color);
 }
 .stories-section-header{
@@ -175,7 +175,7 @@ footer {
         display: block;
         position: fixed;
         padding-bottom: 88px;
-        box-shadow: 2px 6px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 var(--bg-color);
+        box-shadow: 10px 10px 30px -5px rgb(0 0 0 / 9%);
         width: 50%;
         height: 100vh;
         background-color: var(--bg-color);

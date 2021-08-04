@@ -26,14 +26,14 @@ body {
 	--bg-color:#c8dbf8;
     --color:#1e2023;
     --sectioncolor:#ffffff;
-	--buttoncolor:#014cff;
+	--buttoncolor:#047cfd;
 }
 
 .light-mode {
     --bg-color:#2a2c2e;
     --color:#ffffff;
     --sectioncolor:#1e2023;
-	--buttoncolor:#014cff;
+	--buttoncolor:#047cfd;
 }
 
 .card {
@@ -106,12 +106,12 @@ header {
 	align-items:center;
 }
 .bh-reminder{
-	margin:20px;
-	padding:20px;
+	margin-bottom:16px;
+	padding:16px;
 	background:var(--buttoncolor);
 	color:white;
 	font-size:20px;
-	border-radius:5px;
+	border-radius:8px;
 }
 .nowTime{
 	color:var(--color);
@@ -119,7 +119,6 @@ header {
 }
 
 .slider-header{
-	padding-top:10rem;
 	color:var(--color);
 	text-align: center;
 	font-size:2em;
@@ -138,34 +137,13 @@ header {
 	text-align:center;
 	cursor:pointer;
 }
-/* .fa-html5{
-	color:#f06529;
-}
-.fa-css3-alt{
-	color:#264de4;
-}
-.fa-js{
-	color:#f0de4f;
-}
-.fa-github{
-	color:black;
-}
-.fa-git{
-	color:#f34f29;
-}
-.fa-ubuntu{
-	color:#dd4814;
-}
-.fa-font-awesome{
-	color:#1684d3;
-} */
 /* SLIDER SECTION */
 
 /* BODY CSS */
 
 /* FEEDBACK SECTION */
 .feedback{
-	padding-top: 10rem;
+	padding-top: 96px;
 	background:var(--bg-color);
 }
 .feedback-header{
@@ -298,7 +276,7 @@ footer {
         display: block;
         position: fixed;
         padding-bottom: 88px;
-        box-shadow: 2px 6px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 var(--bg-color);
+        box-shadow: 10px 10px 30px -5px rgb(0 0 0 / 9%);
         width: 50%;
         height: 100vh;
         background-color: var(--bg-color);
