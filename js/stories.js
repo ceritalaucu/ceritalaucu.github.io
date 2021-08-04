@@ -3,50 +3,73 @@ window.addEventListener("load", () => {
     preloader.style.display = "none";
 })
 
-document.addEventListener("DOMContentLoaded", function() {
-    const getCSS = el => {
-        return window.getComputedStyle(el,null);
-    };
-    const menuBtn = document.querySelector(".menubtn");
-    menuBtn.addEventListener("click", function(e) {
-        e.preventDefault();
-        const menuIcon = menuBtn.firstElementChild;
-        const menuContent = document.querySelector(".menu-content");
-        if (menuIcon.classList.contains("bi-list")){
-            menuIcon.classList.add("bi-x");
-            menuIcon.classList.remove("bi-list");
-            menuContent.style.left = 0;
-        } else {
-            menuIcon.classList.add("bi-list");
-            menuIcon.classList.remove("bi-x");
-            menuContent.style.left = "-100%";
-        }
-    });
-    const learnBtn = document.querySelector(".learnbtn");
-    learnBtn.addEventListener("click", function(e) {
-        e.preventDefault();
-        const showLearnItem = document.querySelector(".learn-item");
-        const rotateLearnBtn = document.querySelector(".first");
-        if (showLearnItem.style.display === "block"){
-            showLearnItem.style.display = "none";
-            rotateLearnBtn.style.transform = "none";
-        } else {
-            showLearnItem.style.display = "block";
-            rotateLearnBtn.style.transform = "rotate(-180deg)";
-        }
-    })
+const getCSS = (e) => {
+    return window.getComputedStyle(e,null);
+};
 
-    const themeSwitcher = document.querySelector(".theme-switcher");
-    themeSwitcher.addEventListener("click", changeTheme = (e) => {
-        e.preventDefault();
-        if (e.target.classList.contains("bi-sun")) {
-            e.target.classList.add("bi-moon");
-            e.target.classList.remove("bi-sun");
-            document.documentElement.setAttribute("data-theme", "dark");
-        } else {
-            e.target.classList.add("bi-sun");
-            e.target.classList.remove("bi-moon");
-            document.documentElement.setAttribute("data-theme", "light");
+// ______________Flex menu
+const menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", () => {
+    const menuContent = document.querySelector(".menu-content");
+    if (menuButton.classList.contains("bi-list")) {
+        menuButton.classList.add("bi-x");
+        menuButton.classList.remove("bi-list");
+        menuContent.style.left = 0;
+        document.body.style.overflow = "hidden";
+    } else {
+        menuButton.classList.add("bi-list");
+        menuButton.classList.remove("bi-x");
+        menuContent.style.left = "-100%";
+        document.body.style.overflow = "visible";
+    }
+});
+
+// ______________Dropdown sub menu
+const menuA = document.querySelector(".menu-a");
+menuA.addEventListener("click", () => {
+    const target = menuA.lastElementChild;
+    if (getCSS(target).display === "none") {
+        target.style.display = "block";
+    } else {
+        target.style.display = "none";
+    }
+});
+
+// ______________Full screen
+$(document).on("click", ".fullscreen-button", function toggleFullScreen() {
+    if ((document.fullScreenElement !== undefined && document.fullScreenElement === null) || (document.msFullscreenElement !== undefined && document.msFullscreenElement === null) || (document.mozFullScreen !== undefined && !document.mozFullScreen) || (document.webkitIsFullScreen !== undefined && !document.webkitIsFullScreen)) {
+        if (document.documentElement.requestFullScreen) {
+            document.documentElement.requestFullScreen();
+        } else if (document.documentElement.mozRequestFullScreen) {
+            document.documentElement.mozRequestFullScreen();
+        } else if (document.documentElement.webkitRequestFullScreen) {
+            document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+        } else if (document.documentElement.msRequestFullscreen) {
+            document.documentElement.msRequestFullscreen();
         }
-    })
+    } else {
+        if (document.cancelFullScreen) {
+            document.cancelFullScreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.webkitCancelFullScreen) {
+            document.webkitCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+    }
 })
+
+// ______________Switch theme
+const themeButton = document.querySelector(".theme-button");
+themeButton.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+
+    if (themeButton.classList.contains("bi-sun")) {
+        themeButton.classList.add("bi-moon");
+        themeButton.classList.remove("bi-sun");
+    } else {
+        themeButton.classList.add("bi-sun");
+        themeButton.classList.remove("bi-moon");
+    }
+});
