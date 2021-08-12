@@ -71,6 +71,7 @@ header {
     justify-content: space-between;
     padding: 32px;
     width: 100%;
+    box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
     background-color: var(--bg-color);
     color: var(--color);
 }
