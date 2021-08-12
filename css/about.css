@@ -23,16 +23,16 @@
 
 body {
 	font-family:Poppins,sans-serif;
-	--bg-color:#c8dbf8;
-    --color:#1e2023;
-    --sectioncolor:#ffffff;
+	--bg-color:#252930;
+    --color:#ffffff;
+    --sectioncolor:#2e353f;
 	--buttoncolor:#047cfd;
 }
 
 .light-mode {
-    --bg-color:#2a2c2e;
-    --color:#ffffff;
-    --sectioncolor:#1e2023;
+	--bg-color:#c8dbf8;
+    --color:#252930;
+    --sectioncolor:#e9f0f8;
 	--buttoncolor:#047cfd;
 }
 
