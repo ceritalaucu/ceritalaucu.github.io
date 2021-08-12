@@ -105,7 +105,7 @@ header {
 .tujuan{
 	text-align:center;
 	background-color:var(--bg-color);
-	padding-bottom:10rem;
+	padding-bottom:10em;
 }
 .tujuan .header{
 	font-size:2em;
@@ -116,8 +116,8 @@ header {
 	display:flex;
 }
 .tujuan .isi{
-	padding:20px;
-	margin:10px auto 10px auto;
+	padding:16px;
+	margin:8px auto 8px auto;
 	font-size:1.5em;
 	color:var(--color);
 	background-color:var(--sectioncolor);
@@ -126,20 +126,20 @@ header {
 .outro{
 	text-align:center;
 	background-color:var(--bg-color);
-	padding-bottom:10rem;
+	padding-bottom:10em;
 }
 .outro .mulai{
-	padding:20px;
+	padding:16px;
 	color:#fff;
-	font-size:20px;
+	font-size:1.5em;
 	background-color:var(--buttoncolor);
 }
 
 /* FOOTER CSS */
 footer {
-	font-size: 13px;
+	font-size: 1em;
 	background-color:var(--sectioncolor);
-	padding: 20px;
+	padding: 16px;
 	text-align: center;
 	color:var(--color);
 }
@@ -161,8 +161,8 @@ footer {
     .menu-content {
         display: block;
         position: fixed;
-        padding-bottom: 88px;
-        box-shadow: 10px 10px 30px -5px rgb(0 0 0 / 9%);
+        padding-bottom: 96px;
+        box-shadow: 8px 8px 30px -5px rgb(0 0 0 / 9%);
         width: 50%;
         height: 100vh;
         background-color: var(--bg-color);

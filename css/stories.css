@@ -104,7 +104,7 @@ header {
 .stories-section-header{
 	color:var(--color);
 	max-width:640px;
-	font-size:40px;
+	font-size:2em;
     margin:1rem auto 1rem auto;
 }
 
@@ -112,7 +112,7 @@ header {
 	color:var(--color);
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap:4rem;
+    grid-gap:4em;
     width:100%;
     max-width:1280px;
     margin:0 auto;
@@ -150,9 +150,9 @@ header {
 
 /* FOOTER CSS */
 footer {
-	font-size: 13px;
+	font-size: 1em;
 	background-color: var(--sectioncolor);
-	padding: 20px;
+	padding: 16px;
 	text-align: center;
 	color:var(--color);
 }
@@ -174,8 +174,8 @@ footer {
     .menu-content {
         display: block;
         position: fixed;
-        padding-bottom: 88px;
-        box-shadow: 10px 10px 30px -5px rgb(0 0 0 / 9%);
+        padding-bottom: 96px;
+        box-shadow: 8px 8px 30px -5px rgb(0 0 0 / 9%);
         width: 50%;
         height: 100vh;
         background-color: var(--bg-color);

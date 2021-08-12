@@ -106,14 +106,14 @@ header {
 	align-items:center;
 }
 .bh-reminder{
-	margin-bottom:16px;
 	padding:16px;
 	background:var(--buttoncolor);
 	color:white;
-	font-size:20px;
+	font-size:1.5em;
 	border-radius:8px;
 }
 .nowTime{
+    padding-top: 16px;
 	color:var(--color);
 	font-size:2em;
 }
@@ -132,7 +132,7 @@ header {
 	overflow:hidden;
 }
 .slide-img{
-	padding:3rem 2rem 0 2rem;
+	padding:1em 2rem 1em 2rem;
 	font-size:3em;
 	text-align:center;
 	cursor:pointer;
@@ -143,12 +143,12 @@ header {
 
 /* FEEDBACK SECTION */
 .feedback{
-	padding-top: 96px;
+	padding: 10em 0;
 	background:var(--bg-color);
 }
 .feedback-header{
 	color: var(--color);
-	margin-bottom:1rem;
+	padding-bottom:1em;
     font-size: 2em;
 	text-align: center;
 }
@@ -156,8 +156,7 @@ header {
 .feedback-content{
     background: var(--bg-color);
     width:100%;
-    padding: 20px 30px;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+    padding: 16px 32px;
 }
 
 /* ul{
@@ -205,13 +204,13 @@ li div{
 .form-group{
 	display:flex;
 	flex-direction:column;
-	margin: 0 auto 1rem auto;
+	margin: 0 auto 1em auto;
 	max-width:360px;
 }
 
 .form-label{
 	color:var(--color);
-	padding-bottom:10px;
+	padding-bottom:8px;
 }
 
 .form-control {
@@ -222,7 +221,7 @@ li div{
 	color: var(--sectioncolor);
 	background-color: #fff;
 	border: 2px solid #fff;
-	border-radius: 5px;
+	border-radius: 8px;
 	outline: none;
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -236,7 +235,7 @@ li div{
 #feedback-button{
     border: 0;
     background: var(--buttoncolor);
-    padding: 13px;
+    padding: 8px;
     width: 100%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
@@ -251,9 +250,9 @@ li div{
 
 /* FOOTER CSS */
 footer {
-	font-size: 13px;
+	font-size: 1em;
 	background-color: var(--sectioncolor);
-	padding: 20px;
+	padding: 16px;
 	text-align: center;
 	color:var(--color);
 }
@@ -275,8 +274,8 @@ footer {
     .menu-content {
         display: block;
         position: fixed;
-        padding-bottom: 88px;
-        box-shadow: 10px 10px 30px -5px rgb(0 0 0 / 9%);
+        padding-bottom: 96px;
+        box-shadow: 8px 8px 30px -5px rgb(0 0 0 / 9%);
         width: 50%;
         height: 100vh;
         background-color: var(--bg-color);
