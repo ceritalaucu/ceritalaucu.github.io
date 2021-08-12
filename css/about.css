@@ -23,21 +23,21 @@
 
 body {
 	font-family:Poppins,sans-serif;
-	--bg-color:#252930;
-    --color:#ffffff;
-    --sectioncolor:#2e353f;
-	--buttoncolor:#047cfd;
-}
-
-.light-mode {
 	--bg-color:#c8dbf8;
     --color:#252930;
     --sectioncolor:#f5f5f5;
 	--buttoncolor:#047cfd;
 }
 
+.dark-mode {
+	--bg-color:#252930;
+    --color:#ffffff;
+    --sectioncolor:#2e353f;
+	--buttoncolor:#047cfd;
+}
+
 .card {
-    box-shadow: 0 10px 30px -5px rgb(0 0 0 / 9%);
+    box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
     border-radius: 8px;
 }
 
@@ -237,7 +237,7 @@ li div{
     background: var(--buttoncolor);
     padding: 8px;
     width: 100%;
-    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
     font-weight: bold;
     letter-spacing: 1px;
     color: rgb(255, 255, 255);
@@ -275,7 +275,7 @@ footer {
         display: block;
         position: fixed;
         padding-bottom: 96px;
-        box-shadow: 8px 8px 30px -5px rgb(0 0 0 / 9%);
+        box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
         width: 50%;
         height: 100vh;
         background-color: var(--bg-color);

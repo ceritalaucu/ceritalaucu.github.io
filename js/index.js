@@ -63,7 +63,7 @@ $(document).on("click", ".fullscreen-button", function toggleFullScreen() {
 // ______________Switch theme
 const themeButton = document.querySelector(".theme-button");
 themeButton.addEventListener("click", () => {
-    document.body.classList.toggle("light-mode");
+    document.body.classList.toggle("dark-mode");
 
     if (themeButton.classList.contains("bi-sun")) {
         themeButton.classList.add("bi-moon");

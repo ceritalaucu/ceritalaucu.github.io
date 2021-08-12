@@ -15,22 +15,22 @@
 
 body {
 	font-family:Poppins,sans-serif;
-	--bg-color:#252930;
-    --color:#ffffff;
-    --sectioncolor:#2e353f;
-	--buttoncolor:#047cfd;
-}
-
-.light-mode {
 	--bg-color:#c8dbf8;
     --color:#252930;
     --sectioncolor:#f5f5f5;
 	--buttoncolor:#047cfd;
 }
 
+.dark-mode {
+	--bg-color:#252930;
+    --color:#ffffff;
+    --sectioncolor:#2e353f;
+	--buttoncolor:#047cfd;
+}
+
 .card {
-    box-shadow: 0 10px 30px -5px rgb(0 0 0 / 9%);
-    border-radius: 8px;
+	box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
+	border-radius: 8px;
 }
 
 a {
@@ -108,7 +108,7 @@ header {
 	padding-bottom:10em;
 }
 .tujuan .header{
-	font-size:2em;
+	font-size:1.5em;
 	color:var(--color);
 	padding-bottom:2rem;
 }
@@ -118,7 +118,7 @@ header {
 .tujuan .isi{
 	padding:16px;
 	margin:8px auto 8px auto;
-	font-size:1.5em;
+	font-size:1em;
 	color:var(--color);
 	background-color:var(--sectioncolor);
 }
@@ -131,7 +131,7 @@ header {
 .outro .mulai{
 	padding:16px;
 	color:#fff;
-	font-size:1.5em;
+	font-size:1em;
 	background-color:var(--buttoncolor);
 }
 
@@ -162,7 +162,7 @@ footer {
         display: block;
         position: fixed;
         padding-bottom: 96px;
-        box-shadow: 8px 8px 30px -5px rgb(0 0 0 / 9%);
+        box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
         width: 50%;
         height: 100vh;
         background-color: var(--bg-color);
