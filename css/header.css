@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-	box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
+	box-shadow: 0 12px 24px rgb(0 0 0 / 10%);
 	border-radius: 8px;
 }
 
@@ -61,7 +61,7 @@ header {
     justify-content: space-between;
     padding: 24px 64px;
     width: 100%;
-	box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
+	box-shadow: 0 12px 24px rgb(0 0 0 / 10%);
     background-color: var(--bg-color);
     color: var(--color);
 }
@@ -103,7 +103,7 @@ header {
         display: block;
         position: fixed;
         padding-bottom: 96px;
-        box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
+        box-shadow: 0 12px 24px rgb(0 0 0 / 10%);
         width: 50%;
         height: 100vh;
         background-color: var(--bg-color);
