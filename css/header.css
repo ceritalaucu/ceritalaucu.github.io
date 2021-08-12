@@ -22,8 +22,8 @@ body {
 
 .dark-mode {
 	--bg-color:#252930;
-    --color:#ffffff;
-    --sectioncolor:#2e353f;
+    --color:#f5f5f5;
+    --sectioncolor:#363e49;
 	--buttoncolor:#047cfd;
 }
 
