@@ -87,10 +87,9 @@ header {
 
 /* BODY CSS */
 .intro{
-	padding:96px 16px;
-	margin:0 auto;
-	text-align:center;
 	display:flex;
+	justify-content: space-around;
+	padding:96px 16px;
 	background-color:var(--bg-color);
 }
 .intro img{
@@ -98,6 +97,7 @@ header {
 }
 .intro .slogan{
 	margin:auto 0;
+	text-align: center;
 	font-size:2em;
 	color:var(--color);
 }
@@ -187,6 +187,7 @@ footer {
 		flex-direction: column;
 	}
 	.intro img{
+		margin:0 auto;
 		width:75%;
 	}
 	.intro .slogan{
