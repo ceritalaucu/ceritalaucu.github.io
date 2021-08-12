@@ -1,65 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-
-/*HEADER CSS */
-* {
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-	text-decoration: none;
-	list-style:none;
-}
-
-body {
-	font-family:Poppins,sans-serif;
-	--bg-color:#c8dbf8;
-    --color:#252930;
-    --sectioncolor:#f5f5f5;
-	--buttoncolor:#047cfd;
-}
-
-.dark-mode {
-	--bg-color:#252930;
-    --color:#ffffff;
-    --sectioncolor:#2e353f;
-	--buttoncolor:#047cfd;
-}
-
-.card {
-    box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
-    border-radius: 8px;
-}
-
-a {
-	color: var(--color);
-	cursor: pointer;
-}
-
-i {
-	color: var(--color);
-	cursor: pointer;
-}
-
-.loading-page{
-	width:100%;
-	height:100vh;
-	background:#fff;
-	position:fixed;
-	z-index:999;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-
 /* BODY CSS */
 .stories-section{
 	font-family: Caveat,sans-serif;
     text-align:center;
-    padding:96px 16px;
+    padding:96px 64px;
     background:var(--bg-color);
 }
 .stories-section-header{
@@ -111,6 +54,8 @@ i {
 
 @media screen and (max-width: 720px) {
 	/* BODY CSS */
-
+	.stories-section {
+		padding: 96px 32px;
+	}
 	/* BODY CSS */
 }

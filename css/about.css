@@ -1,59 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-/*HEADER CSS */
-* {
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-	text-decoration: none;
-	list-style:none;
-}
-
-body {
-	font-family:Poppins,sans-serif;
-	--bg-color:#c8dbf8;
-    --color:#252930;
-    --sectioncolor:#f5f5f5;
-	--buttoncolor:#047cfd;
-}
-
-.dark-mode {
-	--bg-color:#252930;
-    --color:#ffffff;
-    --sectioncolor:#2e353f;
-	--buttoncolor:#047cfd;
-}
-
-.card {
-    box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
-    border-radius: 8px;
-}
-
-a {
-	color: var(--color);
-	cursor: pointer;
-}
-
-i {
-	color: var(--color);
-	cursor: pointer;
-}
-
-.loading-page{
-	width:100%;
-	height:100vh;
-	background:#fff;
-	position:fixed;
-	z-index:999;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-
 /* BODY CSS */
 .banner-header{
 	/* BLUE : #007bff */
@@ -78,7 +22,7 @@ i {
 .nowTime{
     padding-top: 16px;
 	color:var(--color);
-	font-size:2em;
+	font-size:1.5em;
 }
 
 .slider-header{
@@ -101,8 +45,6 @@ i {
 	cursor:pointer;
 }
 /* SLIDER SECTION */
-
-/* BODY CSS */
 
 /* FEEDBACK SECTION */
 .feedback{
