@@ -1,0 +1,9 @@
+/* FOOTER CSS */
+footer {
+	font-size: 1em;
+	background-color:var(--sectioncolor);
+	padding: 16px;
+	text-align: center;
+	color:var(--color);
+}
+/* FOOTER CSS */
