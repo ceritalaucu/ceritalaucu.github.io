@@ -61,7 +61,7 @@ header {
     justify-content: space-between;
     padding: 24px 64px;
     width: 100%;
-	box-shadow: 0 12px 24px rgb(0 0 0 / 10%);
+	box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
     background-color: var(--bg-color);
     color: var(--color);
 }
@@ -76,7 +76,7 @@ header {
 .sub-content {
     display: none;
     position: absolute;
-    margin-top: 32px;
+    margin-top: 24px;
     background-color: var(--sectioncolor);
     border-top: var(--buttoncolor) 3px solid;
 }
@@ -119,7 +119,7 @@ header {
         position: relative;
         margin-top: unset;
         padding: 16px 0;
-        border-top: none;
+        width: fit-content;
     }
     /* MOBILE HEADER */
 }
